@@ -1,0 +1,7 @@
+
+/** @defgroup port_idf_stm32cube IDF STM32Cube Port Classes
+ *
+ * XF port classes for the `IDF STM32Cube` port.
+ * 
+ * For the `IDF STM32Cube` port only default port classes are used.
+ */

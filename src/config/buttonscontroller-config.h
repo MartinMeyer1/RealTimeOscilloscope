@@ -1,0 +1,7 @@
+#ifndef BOARD_BUTTONSCONTROLLER_CONFIG_H
+#define BOARD_BUTTONSCONTROLLER_CONFIG_H
+
+#define BUTTONSCONTROLLER_EXCLUDE_FROM_BUILD        1       /* Default: 1; ButtonsController is not needed in this project */
+#define TRACE_BUTTONSCONTROLLER_NOTIFICATIONS       0
+
+#endif // BOARD_BUTTONSCONTROLLER_CONFIG_H

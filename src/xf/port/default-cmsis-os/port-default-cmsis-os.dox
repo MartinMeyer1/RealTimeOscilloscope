@@ -1,0 +1,6 @@
+
+/** @defgroup port_default_cmsis_os CMSIS-OS Platform Default Port Classes
+ *
+ * CMSIS-OS platform default port classes.
+ * 
+ */
