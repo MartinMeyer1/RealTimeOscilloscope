@@ -26,10 +26,42 @@ CPP_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Drivers/STM32F7xx_HAL_Driver/Src \
-Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS \
-Middlewares/Third_Party/FreeRTOS/Source \
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 \
-Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang \
 Src \
+app \
+app/interface \
+mdw/sig-gen \
+mdw/trace/examples \
+mdw/ugfx/boards/base/STM32F746-Discovery \
+mdw/ugfx/drivers/gdisp/STM32LTDC \
+mdw/ugfx/drivers/ginput/touch/FT5336 \
+mdw/ugfx/src/gadc \
+mdw/ugfx/src/gaudio \
+mdw/ugfx/src/gdisp/fonts \
+mdw/ugfx/src/gdisp \
+mdw/ugfx/src/gdisp/mcufont \
+mdw/ugfx/src/gdriver \
+mdw/ugfx/src/gevent \
+mdw/ugfx/src/gfile \
+mdw/ugfx/src \
+mdw/ugfx/src/ginput \
+mdw/ugfx/src/gmisc \
+mdw/ugfx/src/gos \
+mdw/ugfx/src/gqueue \
+mdw/ugfx/src/gtimer \
+mdw/ugfx/src/gtrans \
+mdw/ugfx/src/gwin \
+platform/f7-disco-gcc/board \
+platform/f7-disco-gcc/mcu/critical \
+platform/f7-disco-gcc/mcu/hal \
 startup \
+ui-gen \
+xf/core \
+xf/port/active-qt \
+xf/port/default \
+xf/port/default-cmsis-os \
+xf/port/default-idf \
+xf/port/default-qt \
+xf/port/idf-qt \
+xf/port/idf-stm32cube \
+xf/port/stm32cube-cmsis-freertos \
 

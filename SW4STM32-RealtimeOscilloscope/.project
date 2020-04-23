@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>SW4STM32-RealtimeOscilloscope</name>
-	<comment />
+	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -25,4 +25,36 @@
 		<nature>fr.ac6.mcu.ide.core.MCUProjectNature</nature>
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>app</name>
+			<type>2</type>
+			<location>C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/src/app</location>
+		</link>
+		<link>
+			<name>config</name>
+			<type>2</type>
+			<location>C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/src/config</location>
+		</link>
+		<link>
+			<name>mdw</name>
+			<type>2</type>
+			<location>C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/src/mdw</location>
+		</link>
+		<link>
+			<name>platform</name>
+			<type>2</type>
+			<location>C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/src/platform</location>
+		</link>
+		<link>
+			<name>ui-gen</name>
+			<type>2</type>
+			<location>C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/src/ui-gen</location>
+		</link>
+		<link>
+			<name>xf</name>
+			<type>2</type>
+			<location>C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/src/xf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
