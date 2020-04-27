@@ -102,9 +102,10 @@ void OscilloscopeController::onButtonPwmHighPressed()
 #endif // ENABLE_SIGGEN_PWMGENERATOR
 }
 
+
 void OscilloscopeController::doShowAnalogSignal()
 {
-	// TODO: Call gui().drawGraphPoints() with the appropriate data.
+	gui().drawGraphPoints(_adcValuesBuffer, _adcValuesBufferSize);
 }
 
 std::string OscilloscopeController::getText(oscilloscope::TDivValue tdivValue)

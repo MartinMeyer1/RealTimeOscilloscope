@@ -23,7 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "xf/xf.h"
+#include "app/factory.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -168,18 +169,18 @@ int main(void)
   MX_TIM10_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim10, TIM_CHANNEL_1);
-  HAL_ADC_Start_IT(&hadc3);
-  HAL_TIM_OC_Start_IT(&htim1,TIM_CHANNEL_1);
+
+  XF_initialize(10);
+  Factory_initialize();
+  Factory_build();
+  XF_exec();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int cnt;
   while (1)
   {
 
-	  HAL_Delay(2000);
-	  cnt = __HAL_TIM_GetCounter(&htim1);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

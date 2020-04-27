@@ -3,7 +3,7 @@
 
 #include "mcu/mcu.h"
 
-#define ENABLE_SIGGEN_PWMGENERATOR              0               /* Enables/disables usage of PwmGenerator */
+#define ENABLE_SIGGEN_PWMGENERATOR              1               /* Enables/disables usage of PwmGenerator */
 
 extern "C" TIM_HandleTypeDef htim10;                            // Defined in main.c
 
