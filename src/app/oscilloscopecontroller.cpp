@@ -105,7 +105,34 @@ void OscilloscopeController::onButtonPwmHighPressed()
 
 void OscilloscopeController::doShowAnalogSignal()
 {
-	gui().drawGraphPoints(_adcValuesBuffer, _adcValuesBufferSize);
+	float xScale;
+	//x = 640px
+	//tech = 100us
+	//8 div
+	//80 px/div
+	//2*(tech*divpx/tDiv)
+
+
+	switch(_tdivValue){
+	case oscilloscope::TDIV_500us:
+			xScale=32;
+		break;
+	case oscilloscope::TDIV_1ms:
+			xScale=16;
+		break;
+	case oscilloscope::TDIV_2ms:
+			xScale=8;
+		break;
+	case oscilloscope::TDIV_5ms:
+			xScale=3.2;
+		break;
+	case oscilloscope::TDIV_10ms:
+			xScale=1.6;
+		break;
+	default:
+		break;
+	}
+	gui().drawGraphPoints(_adcValuesBuffer, _adcValuesBufferSize,xScale);
 }
 
 std::string OscilloscopeController::getText(oscilloscope::TDivValue tdivValue)

@@ -59,6 +59,9 @@ xf/port/idf-stm32cube/port-functions.o: \
  c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\mdw\trace\trace.h \
  c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\config\trace-config.h \
  c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\platform\f7-disco-gcc\mcu\critical\critical.h \
+ c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\include\xf\xf.h \
+ c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\include\xf\interface\dispatcher.h \
+ c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\include\xf\event.h \
  c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\include\xf\interface\timeoutmanager.h \
  c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\port\port-functions.h
 
@@ -179,6 +182,12 @@ c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\mdw\trace\trace.h:
 c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\config\trace-config.h:
 
 c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\platform\f7-disco-gcc\mcu\critical\critical.h:
+
+c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\include\xf\xf.h:
+
+c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\include\xf\interface\dispatcher.h:
+
+c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\include\xf\event.h:
 
 c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\include\xf\interface\timeoutmanager.h:
 

@@ -8,10 +8,10 @@
 #include "main.h"
 
 uint16_t adcValuesBuffer[ADC_VALUES_BUFFER_SIZE];
-static int i=0;
+
 extern "C" void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef * hadc)
 {
-
+	static int i=0;
 	volatile uint32_t value = HAL_ADC_GetValue(hadc);
 	adcValuesBuffer[i]=value;
 	i++;

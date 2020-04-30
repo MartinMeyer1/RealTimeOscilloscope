@@ -5,6 +5,7 @@
 #include <assert.h>
 #include "mcu/mcu.h"
 #include "critical/critical.h"
+#include "xf/xf.h"
 #include "xf/interface/timeoutmanager.h"
 #include "xf/port/port-functions.h"
 
@@ -39,7 +40,10 @@ void XF_startTimeoutManagerTimer(uint32_t tickInterval)
 void XF_tick()
 {
 	bInISR = true;								// Tell critical section we are in an ISR
-	XFTimeoutManager::getInstance()->tick();    // Call framework hook tick function
+	if (XF::isRunning())
+	{
+		XFTimeoutManager::getInstance()->tick();    // Call framework hook tick function
+	}
 	bInISR = false;
 }
 

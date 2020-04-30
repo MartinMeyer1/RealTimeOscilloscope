@@ -12,6 +12,7 @@ using interface::XFResourceFactory;
 using interface::XFTimeoutManager;
 
 bool XF::_bInitialized = false;
+bool XF::_bIsRunning = false;
 
 void XF_initialize(int timeInterval)
 {
@@ -26,6 +27,11 @@ void XF_exec()
 void XF_execOnce()
 {
     XF::execOnce();
+}
+
+bool XF_isRunning()
+{
+	return XF::isRunning();
 }
 
 void XF::initialize(int timeInterval /* = 10 */, int argc /* = 0 */, char * argv[] /* = nullptr */)
@@ -46,6 +52,8 @@ int XF::exec()
 
 	// Start default dispatcher
 	XFResourceFactory::getInstance()->getDefaultDispatcher()->start();
+
+	_bIsRunning = true;
 
 	// In case default dispatcher does not have a thread executing it,
 	// call it with this thread
@@ -72,10 +80,17 @@ int XF::execOnce()
 		assert(!XFResourceFactory::getInstance()->getDefaultDispatcher()->isActive());
 		// Default dispatcher needs to be started explicitly
 		XFResourceFactory::getInstance()->getDefaultDispatcher()->start();
+
+		_bIsRunning = true;
 	}
 
     // Execute once the default dispatcher
     return XFResourceFactory::getInstance()->getDefaultDispatcher()->executeOnce();
+}
+
+bool XF::isRunning()
+{
+	return _bIsRunning;
 }
 
 #endif // USE_XF_DEFAULT_IMPLEMENTATION

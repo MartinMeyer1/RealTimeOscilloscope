@@ -1,6 +1,7 @@
 #ifndef XF_XF_H
 #define XF_XF_H
 
+#include <stdbool.h>
 #include "config/xf-config.h"
 
 //
@@ -128,8 +129,11 @@ public:
      */
     static int execOnce();
 
+    static bool isRunning();
+
 protected:
     static bool _bInitialized;			///< Changes from false to true after calling method initialize(int). Used to handle multiple calls to init(int).
+    static bool _bIsRunning;
 };
 
 #endif  // __cplusplus
@@ -144,6 +148,7 @@ extern "C" {
 void XF_initialize(int timeInterval);       ///< Initializes XF within C code
 void XF_exec();                             ///< Calls XF execution in C code (blocking call)
 void XF_execOnce();                         ///< Calls XF execution in C code (non-blocking call)
+bool XF_isRunning();
 
 #ifdef __cplusplus
 }

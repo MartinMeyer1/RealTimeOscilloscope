@@ -49,7 +49,10 @@ Src/stm32f7xx_it.o: ../Src/stm32f7xx_it.c \
  C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
  C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
- C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/Inc/stm32f7xx_it.h
+ C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/Inc/stm32f7xx_it.h \
+ c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\config\xf-config.h \
+ c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\config\xf-port-config.h \
+ c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\port\default-idf\eventqueue-default.h
 
 C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/Inc/main.h:
 
@@ -152,3 +155,9 @@ C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/
 C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
 
 C:/Users/meyer/Saved/Hes/PTR/RealtimeOscilloscope/SW4STM32-RealtimeOscilloscope/Inc/stm32f7xx_it.h:
+
+c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\config\xf-config.h:
+
+c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\config\xf-port-config.h:
+
+c:\users\meyer\saved\hes\ptr\realtimeoscilloscope\src\xf\port\default-idf\eventqueue-default.h:
