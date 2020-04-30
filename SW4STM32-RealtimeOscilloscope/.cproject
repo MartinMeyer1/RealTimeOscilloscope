@@ -41,6 +41,10 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\mdw\ugfx\boards\base\STM32F746-Discovery&quot;"/>
 									<listOptionValue builtIn="false" value="../Inc"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\mdw\ugfx\src\gdisp\mcufont&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\xf\port\default-cmsis-os&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\SW4STM32-RealtimeOscilloscope\middlewares\third_party\freertos\source\cmsis_rtos&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\SW4STM32-RealtimeOscilloscope\middlewares\third_party\freertos\source\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\SW4STM32-RealtimeOscilloscope\middlewares\third_party\freertos\source\portable\gcc\arm_cm7\r0p1&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\ui-gen&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\config&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\platform\f7-disco-gcc&quot;"/>
@@ -72,9 +76,13 @@
 								<option id="gnu.cpp.compiler.option.include.paths.1602849234" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\mdw\ugfx\boards\base\STM32F746-Discovery&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\xf\port\default-cmsis-os&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\ui-gen&quot;"/>
 									<listOptionValue builtIn="false" value="../Inc"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\SW4STM32-RealtimeOscilloscope\middlewares\third_party\freertos\source\cmsis_rtos&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\SW4STM32-RealtimeOscilloscope\middlewares\third_party\freertos\source\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\SW4STM32-RealtimeOscilloscope\middlewares\third_party\freertos\source\portable\gcc\arm_cm7\r0p1&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\platform\f7-disco-gcc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\platform\f7-disco-gcc\mcu&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\src\mdw&quot;"/>
@@ -134,13 +142,15 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="app"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="config"/>
 						<entry excluding="ugfx/src/gdisp/fonts/UI2.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="mdw"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="platform/f7-disco-gcc"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup"/>
 						<entry excluding="resources/dejavusans18_bold_dejavusans_bold18_aa.c|resources/dejavusans12_dejavusans12_aa.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ui-gen"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/include"/>
-						<entry excluding="default-idf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/port"/>
+						<entry excluding="default-cmsis-os|default-idf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/port"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/port/default-cmsis-os"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/port/default-idf"/>
 					</sourceEntries>
 				</configuration>
@@ -258,14 +268,17 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
+						<entry excluding="Third_Party/FreeRTOS/Source/CMSIS_RTOS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="config"/>
 						<entry excluding="ugfx/src/gdisp/fonts/UI2.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="mdw"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="platform/f7-disco-gcc"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/include"/>
-						<entry excluding="default-idf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/port"/>
+						<entry excluding="default-cmsis-os|default-idf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/port"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/port/default-cmsis-os"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="xf/port/default-idf"/>
 					</sourceEntries>
 				</configuration>
@@ -279,7 +292,7 @@
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="SW4STM32-RealtimeOscilloscope"/>
+			<resource resourceType="PROJECT" workspacePath="/SW4STM32-RealtimeOscilloscope"/>
 		</configuration>
 		<configuration configurationName="Release"/>
 	</storageModule>
@@ -299,4 +312,5 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>
