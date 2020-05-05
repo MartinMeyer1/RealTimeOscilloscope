@@ -60,6 +60,7 @@ protected:
     void onButtonTimeMinusPressed() override;
     void onButtonPwmLowPressed() override;
     void onButtonPwmHighPressed() override;
+    void onButtonTriggerPressed()override;
     uint32_t getTDivCount() const override { return 8; };
 
 protected:
@@ -76,10 +77,14 @@ protected:
 	uint32_t _adcValuesBufferSize;
 
 	const int TIMEOUT_ID = 0;
-	const int TIMEOUT_INTERVAL = 20;
+	const int TIMEOUT_INTERVAL = 50;
 
 	oscilloscope::TDivValue _tdivValue;
 
+	bool TriggerOn;
+	uint32_t triggerValue;
+	uint32_t t;
+	uint32_t f;
 	static const oscilloscope::TDivOption _tdivOptions[];
 };
 

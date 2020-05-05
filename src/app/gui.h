@@ -46,11 +46,13 @@ protected:
     void onButtonTimeMinusPressed();
     void onButtonPwmLowPressed();
     void onButtonPwmHighPressed();
+    void onTriggerPressed();
 
 protected:
     interface::GuiObserver * _pGuiObserver;         ///< Gui observer notified about Gui events.
     bool _redLedOn;
     int16_t _xAxisPixelsPerField;                   ///< Number of pixels per field on the x-axis.
+
 };
 
 }   // namespace oscilloscope

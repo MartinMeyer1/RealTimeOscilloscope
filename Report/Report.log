@@ -1,0 +1,503 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.14)  5 MAY 2020 19:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Report.tex
+(./Report.tex
+LaTeX2e <2018-12-01>
+(c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(c:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2019/01/30 v3.5d French support from the babel system
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@acadian = a dialect from \language\l@french 
+\FB@nonchar=\count90
+Package babel Info: Making : an active character on input line 414.
+Package babel Info: Making ; an active character on input line 415.
+Package babel Info: Making ! an active character on input line 416.
+Package babel Info: Making ? an active character on input line 417.
+\FBguill@level=\count91
+\FBold@everypar=\toks16
+\FB@Mht=\dimen104
+\mc@charclass=\count92
+\mc@charfam=\count93
+\mc@charslot=\count94
+\std@mcc=\count95
+\dec@mcc=\count96
+\c@FBcaption@count=\count97
+\listindentFB=\dimen105
+\descindentFB=\dimen106
+\labelindentFB=\dimen107
+\labelwidthFB=\dimen108
+\leftmarginFB=\dimen109
+\parindentFFN=\dimen110
+\FBfnindent=\dimen111
+))
+(c:/texlive/2018/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count98
+\Gm@cntv=\count99
+\c@Gm@tempcnt=\count100
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks18
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks19
+\float@box=\box27
+\@float@everytoks=\toks20
+\@floatcapt=\box28
+)
+(c:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+)
+\c@caption@flags=\count102
+\c@ContinuedFloat=\count103
+Package caption Info: float package is loaded.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen129
+\ar@mcellbox=\box29
+\extrarowheight=\dimen130
+\NC@list=\toks21
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box30
+) (./Report.aux)
+\openout1 = `Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \degres on input line 18.
+LaTeX Info: Redefining \dots on input line 18.
+LaTeX Info: Redefining \up on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen131
+\scratchbox=\box31
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen132
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks23
+) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+
+(./Report.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
+\tf@toc=\write3
+\openout3 = `Report.toc'.
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 32--52
+ [] 
+ []
+
+[1
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 57--76
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 81--100
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 107--126
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 130--149
+ [] 
+ []
+
+[2]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 153--172
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 176--195
+ [] 
+ []
+
+[3]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 202--221
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 225--244
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 249--268
+ [] 
+ []
+
+<Ressources/PWM_500us.jpg, id=18, 4194.67125pt x 2518.40875pt>
+File: Ressources/PWM_500us.jpg Graphic file (type jpg)
+<use Ressources/PWM_500us.jpg>
+Package pdftex.def Info: Ressources/PWM_500us.jpg  used on input line 284.
+(pdftex.def)             Requested size: 335.58055pt x 201.47682pt.
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 273--293
+ [] 
+ []
+
+<Ressources/PWM_10ms.jpg, id=19, 4244.85875pt x 2499.3375pt>
+File: Ressources/PWM_10ms.jpg Graphic file (type jpg)
+<use Ressources/PWM_10ms.jpg>
+Package pdftex.def Info: Ressources/PWM_10ms.jpg  used on input line 308.
+(pdftex.def)             Requested size: 339.59564pt x 199.95108pt.
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 297--317
+ [] 
+ []
+
+[4]
+<Ressources/sinus_500us.jpg, id=23, 4218.76125pt x 2517.405pt>
+File: Ressources/sinus_500us.jpg Graphic file (type jpg)
+<use Ressources/sinus_500us.jpg>
+Package pdftex.def Info: Ressources/sinus_500us.jpg  used on input line 332.
+(pdftex.def)             Requested size: 337.5078pt x 201.39651pt.
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 321--341
+ [] 
+ []
+
+[5 <./Ressources/PWM_500us.jpg>]
+<Ressources/sinus_10ms.jpg, id=27, 4171.585pt x 2347.77126pt>
+File: Ressources/sinus_10ms.jpg Graphic file (type jpg)
+<use Ressources/sinus_10ms.jpg>
+Package pdftex.def Info: Ressources/sinus_10ms.jpg  used on input line 356.
+(pdftex.def)             Requested size: 333.73363pt x 187.82553pt.
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 345--365
+ [] 
+ []
+
+[6 <./Ressources/PWM_10ms.jpg>] [7 <./Ressources/sinus_500us.jpg>]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 370--389
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 393--412
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 416--436
+ [] 
+ []
+
+[8 <./Ressources/sinus_10ms.jpg>]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 441--460
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 464--483
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 487--506
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 510--529
+ [] 
+ []
+
+[9]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 533--552
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 556--575
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 579--598
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 602--621
+ [] 
+ []
+
+[10]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 626--645
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 649--668
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 672--691
+ [] 
+ []
+
+[11]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 697--716
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 720--739
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 743--762
+ [] 
+ []
+
+[12] [13] (./Report.aux) ) 
+Here is how much of TeX's memory you used:
+ 4679 strings out of 494492
+ 70025 string characters out of 6175390
+ 157136 words of memory out of 5000000
+ 8296 multiletter control sequences out of 15000+600000
+ 12689 words of font info for 33 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 41i,14n,38p,273b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/
+cm-super-t1.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx120
+0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/cm-super/sfrm2074.pfb>
+Output written on Report.pdf (13 pages, 13781391 bytes).
+PDF statistics:
+ 76 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

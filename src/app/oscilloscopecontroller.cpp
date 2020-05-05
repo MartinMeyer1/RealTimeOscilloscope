@@ -33,6 +33,7 @@ OscilloscopeController & OscilloscopeController::getInstance()
 
 void OscilloscopeController::initialize(oscilloscope::Gui & gui, uint16_t * adcValuesBuffer, uint32_t adcValuesBufferSize)
 {
+	TriggerOn=false;
     _pGui = &gui;
     _adcValuesBuffer = adcValuesBuffer;
     _adcValuesBufferSize = adcValuesBufferSize;
@@ -61,8 +62,10 @@ XFEventStatus OscilloscopeController::processEvent()
 		getCurrentTimeout()->getId() == TIMEOUT_ID)
 	{
 		scheduleTimeout(TIMEOUT_ID, TIMEOUT_INTERVAL);
-
+		t=HAL_GetTick();
 		doShowAnalogSignal();
+		t=HAL_GetTick()-t;
+		f=HAL_GetTickFreq();
 	}
 
 	return XFEventStatus::Consumed;
@@ -102,6 +105,7 @@ void OscilloscopeController::onButtonPwmHighPressed()
 #endif // ENABLE_SIGGEN_PWMGENERATOR
 }
 
+extern TIM_HandleTypeDef htim1;
 
 void OscilloscopeController::doShowAnalogSignal()
 {
@@ -111,28 +115,59 @@ void OscilloscopeController::doShowAnalogSignal()
 	//8 div
 	//80 px/div
 	//2*(tech*divpx/tDiv)
+	//640/(8*tDiv/tsample) = xScale
+	//640/(fsample*8/fDiv)
+
+	int32_t fSample = 1000000/htim1.Init.Period;
+
+	float fDiv;
+
+	uint16_t* trigPtr=_adcValuesBuffer;
 
 
 	switch(_tdivValue){
 	case oscilloscope::TDIV_500us:
-			xScale=32;
+			fDiv = 2000;
 		break;
 	case oscilloscope::TDIV_1ms:
-			xScale=16;
+			fDiv = 1000;
 		break;
 	case oscilloscope::TDIV_2ms:
-			xScale=8;
+			fDiv = 500;
 		break;
 	case oscilloscope::TDIV_5ms:
-			xScale=3.2;
+			fDiv = 200;
 		break;
 	case oscilloscope::TDIV_10ms:
-			xScale=1.6;
+			fDiv = 100;
 		break;
 	default:
 		break;
 	}
-	gui().drawGraphPoints(_adcValuesBuffer, _adcValuesBufferSize,xScale);
+	xScale = (600.0/(fSample*8.0/fDiv))*1.7;
+	float size=600.0/xScale;
+
+	if(TriggerOn){
+		uint32_t temp_low=0;
+		uint32_t temp_high=0;
+		for(int i=1;i<_adcValuesBufferSize-size-3;i++){
+			for(int j=0;j<3;j++){
+				temp_low+=_adcValuesBuffer[i-j];
+				temp_high+=_adcValuesBuffer[i+j];
+			}
+			temp_low/=4;
+			temp_high/=4;
+
+			if(temp_low<triggerValue&&temp_high>triggerValue){
+				trigPtr = &_adcValuesBuffer[i];
+			}
+		}
+	}
+	else{
+		trigPtr = _adcValuesBuffer;
+	}
+
+	gui().drawGraphPoints(trigPtr, size,xScale);
 }
 
 std::string OscilloscopeController::getText(oscilloscope::TDivValue tdivValue)
@@ -147,4 +182,11 @@ std::string OscilloscopeController::getText(oscilloscope::TDivValue tdivValue)
         }
     }
     return "n/a";
+}
+
+void OscilloscopeController::onButtonTriggerPressed()
+{
+	TriggerOn=!TriggerOn;
+	triggerValue=_adcValuesBuffer[0];
+	triggerValue=2000;
 }

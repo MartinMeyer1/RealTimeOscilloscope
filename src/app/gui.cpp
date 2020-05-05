@@ -179,6 +179,7 @@ DECLARE_THREAD_FUNCTION(touchThreadHandler, arg)
                 {
                     Trace::out("Trigger button pressed");
                     gui.setRedLed(!gui.isRedLedEnabled());
+                    gui.onTriggerPressed();
                 }
                 else if (buttonHandle == ghPushButtonTimePlus)
                 {
@@ -237,6 +238,10 @@ void Gui::onButtonPwmLowPressed()
 void Gui::onButtonPwmHighPressed()
 {
     _pGuiObserver->onButtonPwmHighPressed();
+}
+void Gui::onTriggerPressed()
+{
+	_pGuiObserver->onButtonTriggerPressed();
 }
 
 }   // namespace oscilloscope

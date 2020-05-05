@@ -41,6 +41,7 @@ void Factory::build()
     getOscilloscopeController().start();
     getGui().start();
 
+
 #if defined(ENABLE_SIGGEN_PWMGENERATOR) && (ENABLE_SIGGEN_PWMGENERATOR != 0)
     pwmGenerator().start();
 #endif // ENABLE_SIGGEN_PWMGENERATOR
