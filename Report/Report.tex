@@ -8,6 +8,7 @@
 \usepackage{float}
 \usepackage{caption}
 \usepackage{array}
+\usepackage{lscape}
 
 \geometry{hmargin=2.5cm,vmargin=2.5cm}
 
@@ -38,7 +39,31 @@
 	\section{Introduction}
 	Dans ce laboratoire, nous avons créé un système temps réel réalisant un fonction d'oscilloscope. Une partie des tâches, comme l'échantillonnage, fonctionne en temps réel. D'autre tâches, comme l'affichage, n'en ont pas besoin.\\
 	Pour ce faire, nous avons travaillé avec les cartes microcontrôleur STM32f7-discovery, System Workbench for STM32 et STM32CubeMX.\newline
-	Ce rapport décrit quelques parties intéressantes du programme, notamment grâce à des diagrammes UML.
+	Ce rapport décrit quelques parties intéressantes du programme, notamment grâce à des diagrammes UML.\newpage
+	\section{Diagrammes}
+	\subsection{Diagramme de timing}
+	Ci-dessous, le diagramme de timing:
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=\columnwidth]{Ressources/timing.pdf}
+			\caption{\label{timing} Diagramme de timing}
+		\end{center}
+	\end{figure}
+	On peut voir sur la figure \ref{timing} que l'affichage prend environ 20ms. Il s'en suit un court passage dans le XF. L'adc est considéré comme toujours actif, car il fait une conversion toutes les 10 us.
+	\subsection{Diagramme de classe}
+	\begin{figure}[H]
+	\begin{center}
+		\includegraphics[angle=270,scale=0.48]{Ressources/class.pdf}
+		\caption{\label{class} Diagramme de classe}
+	\end{center}
+\end{figure}
+	\section{Patterns}
+	\subsection{Singleton}
+	Le pattern singleton est utilisé dans plusieurs classes, commme la Factory ou l'OscilloscopeController.
+	\subsection{Sujet-observateur}
+	Un pattern sujet-observateur est utilisé. La classe OscilloscopeController est l'observateur et la classe Gui le sujet.
+	\subsection{Factory}
+	Une Factory est utilisée dans ce labo. Elle initialize des relations et lance le système.
 	\section{Questions}
 	\subsection{Tâche 6}
 	\subsubsection{Question 1}

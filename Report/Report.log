@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.14)  6 MAY 2020 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.14)  6 MAY 2020 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -164,6 +164,9 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \backup@length=\skip44
 \ar@cellbox=\box30
 )
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
 (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count104
 \lst@gtempboxa=\box31
@@ -217,21 +220,21 @@ File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 ) (./Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Info: Redefining \degres on input line 32.
-LaTeX Info: Redefining \dots on input line 32.
-LaTeX Info: Redefining \up on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \degres on input line 33.
+LaTeX Info: Redefining \dots on input line 33.
+LaTeX Info: Redefining \up on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -337,9 +340,9 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count118
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 34.
+(Font)              <14.4> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 35.
 
 (./Report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -355,198 +358,213 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `Report.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
-
- []
-
-[4] [5]
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 141--161
- [] 
- []
-
-
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 166--185
- [] 
- []
+<Ressources/timing.pdf, id=14, 437.38406pt x 131.74219pt>
+File: Ressources/timing.pdf Graphic file (type pdf)
+<use Ressources/timing.pdf>
+Package pdftex.def Info: Ressources/timing.pdf  used on input line 48.
+(pdftex.def)             Requested size: 472.03123pt x 142.17891pt.
+<Ressources/class.pdf, id=15, 1222.5675pt x 587.94656pt>
+File: Ressources/class.pdf Graphic file (type pdf)
+<use Ressources/class.pdf>
+Package pdftex.def Info: Ressources/class.pdf  used on input line 56.
+(pdftex.def)             Requested size: 1222.56451pt x 587.94513pt.
+ [3 <./Ressources/timing.pdf>]
+Overfull \vbox (5.1669pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 190--209
- [] 
- []
+[4 <./Ressources/class.pdf>] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
-
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 216--235
- [] 
- []
-
-
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 239--258
- [] 
  []
 
 [6]
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 262--281
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+[7] [8]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 166--186
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 285--304
- [] 
- []
-
-[7]
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 311--330
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 191--210
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 334--353
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 215--234
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 358--377
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 241--260
  [] 
  []
 
-<Ressources/PWM_500us.jpg, id=37, 4194.67125pt x 2518.40875pt>
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 264--283
+ [] 
+ []
+
+[9]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 287--306
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 310--329
+ [] 
+ []
+
+[10]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 336--355
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 359--378
+ [] 
+ []
+
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 383--402
+ [] 
+ []
+
+<Ressources/PWM_500us.jpg, id=165, 4194.67125pt x 2518.40875pt>
 File: Ressources/PWM_500us.jpg Graphic file (type jpg)
 <use Ressources/PWM_500us.jpg>
-Package pdftex.def Info: Ressources/PWM_500us.jpg  used on input line 393.
+Package pdftex.def Info: Ressources/PWM_500us.jpg  used on input line 418.
 (pdftex.def)             Requested size: 335.58055pt x 201.47682pt.
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 382--402
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 407--427
  [] 
  []
 
-<Ressources/PWM_10ms.jpg, id=38, 4244.85875pt x 2499.3375pt>
+<Ressources/PWM_10ms.jpg, id=166, 4244.85875pt x 2499.3375pt>
 File: Ressources/PWM_10ms.jpg Graphic file (type jpg)
 <use Ressources/PWM_10ms.jpg>
-Package pdftex.def Info: Ressources/PWM_10ms.jpg  used on input line 417.
+Package pdftex.def Info: Ressources/PWM_10ms.jpg  used on input line 442.
 (pdftex.def)             Requested size: 339.59564pt x 199.95108pt.
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 406--426
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 431--451
  [] 
  []
 
-[8]
-<Ressources/sinus_500us.jpg, id=42, 4218.76125pt x 2517.405pt>
+[11]
+<Ressources/sinus_500us.jpg, id=170, 4218.76125pt x 2517.405pt>
 File: Ressources/sinus_500us.jpg Graphic file (type jpg)
 <use Ressources/sinus_500us.jpg>
-Package pdftex.def Info: Ressources/sinus_500us.jpg  used on input line 441.
+Package pdftex.def Info: Ressources/sinus_500us.jpg  used on input line 466.
 (pdftex.def)             Requested size: 337.5078pt x 201.39651pt.
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 430--450
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 455--475
  [] 
  []
 
-[9 <./Ressources/PWM_500us.jpg>]
-<Ressources/sinus_10ms.jpg, id=46, 4171.585pt x 2347.77126pt>
+[12 <./Ressources/PWM_500us.jpg>]
+<Ressources/sinus_10ms.jpg, id=174, 4171.585pt x 2347.77126pt>
 File: Ressources/sinus_10ms.jpg Graphic file (type jpg)
 <use Ressources/sinus_10ms.jpg>
-Package pdftex.def Info: Ressources/sinus_10ms.jpg  used on input line 465.
+Package pdftex.def Info: Ressources/sinus_10ms.jpg  used on input line 490.
 (pdftex.def)             Requested size: 333.73363pt x 187.82553pt.
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 454--474
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 479--499
  [] 
  []
 
-[10 <./Ressources/PWM_10ms.jpg>] [11 <./Ressources/sinus_500us.jpg>]
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 479--498
- [] 
- []
-
-
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 502--521
+[13 <./Ressources/PWM_10ms.jpg>] [14 <./Ressources/sinus_500us.jpg>]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 504--523
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 525--545
- [] 
- []
-
-[12 <./Ressources/sinus_10ms.jpg>]
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 550--569
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 527--546
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 573--592
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 550--570
+ [] 
+ []
+
+[15 <./Ressources/sinus_10ms.jpg>]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 575--594
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 596--615
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 598--617
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 619--638
- [] 
- []
-
-[13]
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 642--661
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 621--640
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 665--684
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 644--663
+ [] 
+ []
+
+[16]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 667--686
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 688--707
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 690--709
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 711--730
- [] 
- []
-
-[14]
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 735--754
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 713--732
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 758--777
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 736--755
+ [] 
+ []
+
+[17]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 760--779
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 781--800
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 783--802
  [] 
  []
 
-[15]
+
 Overfull \hbox (20.8128pt too wide) in paragraph at lines 806--825
  [] 
  []
 
-
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 829--848
+[18]
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 831--850
  [] 
  []
 
 
-Overfull \hbox (20.8128pt too wide) in paragraph at lines 852--871
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 854--873
  [] 
  []
 
-[16] [17] (./Report.aux) ) 
+
+Overfull \hbox (20.8128pt too wide) in paragraph at lines 877--896
+ [] 
+ []
+
+[19] [20] (./Report.aux) ) 
 Here is how much of TeX's memory you used:
- 6936 strings out of 494492
- 99031 string characters out of 6175390
- 377209 words of memory out of 5000000
- 10525 multiletter control sequences out of 15000+600000
+ 6962 strings out of 494492
+ 99568 string characters out of 6175390
+ 377366 words of memory out of 5000000
+ 10546 multiletter control sequences out of 15000+600000
  13364 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,15n,49p,370b,1254s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -562,10 +580,10 @@ er/sfbx1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc120
 0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/
 texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/20
 18/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on Report.pdf (17 pages, 13851732 bytes).
+Output written on Report.pdf (20 pages, 13935193 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 242 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

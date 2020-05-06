@@ -32298,7 +32298,7 @@ LOAD c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17
                 0x00002261       0x22 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x8a4a7
+.debug_info     0x00000000    0x8a4ab
  .debug_info    0x00000000      0xa6f Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_info    0x00000a6f      0xdbc Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
  .debug_info    0x0000182b      0xbc8 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o
@@ -32344,55 +32344,55 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .debug_info    0x00037e13      0x742 Src/system_stm32f7xx.o
  .debug_info    0x00038555     0x39b6 app/factory.o
  .debug_info    0x0003bf0b     0x68ee app/gui.o
- .debug_info    0x000427f9     0x8299 app/oscilloscopecontroller.o
- .debug_info    0x0004aa92     0x58c5 mdw/sig-gen/pwmgenerator.o
- .debug_info    0x00050357     0x1971 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
- .debug_info    0x00051cc8      0x947 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
- .debug_info    0x0005260f     0x1ea0 mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
- .debug_info    0x000544af      0xc66 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
- .debug_info    0x00055115     0x29b2 mdw/ugfx/src/gdisp/gdisp.o
- .debug_info    0x00057ac7      0x606 mdw/ugfx/src/gdisp/gdisp_fonts.o
- .debug_info    0x000580cd      0x814 mdw/ugfx/src/gdisp/gdisp_image.o
- .debug_info    0x000588e1     0x1ef6 mdw/ugfx/src/gdisp/gdisp_image_png.o
- .debug_info    0x0005a7d7      0x28f mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
- .debug_info    0x0005aa66      0x90f mdw/ugfx/src/gdisp/mcufont/mf_font.o
- .debug_info    0x0005b375      0xacc mdw/ugfx/src/gdisp/mcufont/mf_justify.o
- .debug_info    0x0005be41      0xa41 mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
- .debug_info    0x0005c882      0x5ec mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
- .debug_info    0x0005ce6e      0xd99 mdw/ugfx/src/gdriver/gdriver.o
- .debug_info    0x0005dc07      0x941 mdw/ugfx/src/gevent/gevent.o
- .debug_info    0x0005e548      0x9f6 mdw/ugfx/src/gfile/gfile.o
- .debug_info    0x0005ef3e      0xf7b mdw/ugfx/src/gfile/gfile_fs_rom.o
- .debug_info    0x0005feb9      0x3aa mdw/ugfx/src/gfx.o
- .debug_info    0x00060263      0x224 mdw/ugfx/src/ginput/ginput.o
- .debug_info    0x00060487     0x17e5 mdw/ugfx/src/ginput/ginput_mouse.o
- .debug_info    0x00061c6c      0xee9 mdw/ugfx/src/gos/gos_freertos.o
- .debug_info    0x00062b55      0x68e mdw/ugfx/src/gqueue/gqueue.o
- .debug_info    0x000631e3      0x7a6 mdw/ugfx/src/gtimer/gtimer.o
- .debug_info    0x00063989     0x1e4f mdw/ugfx/src/gwin/gwin.o
- .debug_info    0x000657d8      0xc05 mdw/ugfx/src/gwin/gwin_button.o
- .debug_info    0x000663dd      0xcd6 mdw/ugfx/src/gwin/gwin_container.o
- .debug_info    0x000670b3     0x1079 mdw/ugfx/src/gwin/gwin_graph.o
- .debug_info    0x0006812c      0xa46 mdw/ugfx/src/gwin/gwin_image.o
- .debug_info    0x00068b72      0xbba mdw/ugfx/src/gwin/gwin_label.o
- .debug_info    0x0006972c     0x101d mdw/ugfx/src/gwin/gwin_radio.o
- .debug_info    0x0006a749     0x1793 mdw/ugfx/src/gwin/gwin_widget.o
- .debug_info    0x0006bedc     0x18c1 mdw/ugfx/src/gwin/gwin_wm.o
- .debug_info    0x0006d79d     0x587b platform/f7-disco-gcc/board/trace.o
- .debug_info    0x00073018     0x2fed platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_info    0x00076005       0x22 startup/startup_stm32f746xx.o
- .debug_info    0x00076027      0x9b0 ui-gen/gui.o
- .debug_info    0x000769d7      0x528 ui-gen/resources_manager.o
- .debug_info    0x00076eff     0x3091 xf/core/behavior.o
- .debug_info    0x00079f90      0x511 xf/core/initialevent.o
- .debug_info    0x0007a4a1      0x697 xf/core/timeout.o
- .debug_info    0x0007ab38     0x3665 xf/port/default/dispatcher-active.o
- .debug_info    0x0007e19d      0x7de xf/port/default-cmsis-os/mutex-default.o
- .debug_info    0x0007e97b     0x12b3 xf/port/default-cmsis-os/thread-default.o
- .debug_info    0x0007fc2e      0xa3d xf/port/stm32cube-cmsis-freertos/eventqueue.o
- .debug_info    0x0008066b      0x7b6 xf/port/stm32cube-cmsis-freertos/resourcefactory.o
- .debug_info    0x00080e21     0x918f xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
- .debug_info    0x00089fb0      0x4f7 xf/port/stm32cube-cmsis-freertos/xf.o
+ .debug_info    0x000427f9     0x829d app/oscilloscopecontroller.o
+ .debug_info    0x0004aa96     0x58c5 mdw/sig-gen/pwmgenerator.o
+ .debug_info    0x0005035b     0x1971 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
+ .debug_info    0x00051ccc      0x947 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
+ .debug_info    0x00052613     0x1ea0 mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
+ .debug_info    0x000544b3      0xc66 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
+ .debug_info    0x00055119     0x29b2 mdw/ugfx/src/gdisp/gdisp.o
+ .debug_info    0x00057acb      0x606 mdw/ugfx/src/gdisp/gdisp_fonts.o
+ .debug_info    0x000580d1      0x814 mdw/ugfx/src/gdisp/gdisp_image.o
+ .debug_info    0x000588e5     0x1ef6 mdw/ugfx/src/gdisp/gdisp_image_png.o
+ .debug_info    0x0005a7db      0x28f mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_info    0x0005aa6a      0x90f mdw/ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_info    0x0005b379      0xacc mdw/ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_info    0x0005be45      0xa41 mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_info    0x0005c886      0x5ec mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
+ .debug_info    0x0005ce72      0xd99 mdw/ugfx/src/gdriver/gdriver.o
+ .debug_info    0x0005dc0b      0x941 mdw/ugfx/src/gevent/gevent.o
+ .debug_info    0x0005e54c      0x9f6 mdw/ugfx/src/gfile/gfile.o
+ .debug_info    0x0005ef42      0xf7b mdw/ugfx/src/gfile/gfile_fs_rom.o
+ .debug_info    0x0005febd      0x3aa mdw/ugfx/src/gfx.o
+ .debug_info    0x00060267      0x224 mdw/ugfx/src/ginput/ginput.o
+ .debug_info    0x0006048b     0x17e5 mdw/ugfx/src/ginput/ginput_mouse.o
+ .debug_info    0x00061c70      0xee9 mdw/ugfx/src/gos/gos_freertos.o
+ .debug_info    0x00062b59      0x68e mdw/ugfx/src/gqueue/gqueue.o
+ .debug_info    0x000631e7      0x7a6 mdw/ugfx/src/gtimer/gtimer.o
+ .debug_info    0x0006398d     0x1e4f mdw/ugfx/src/gwin/gwin.o
+ .debug_info    0x000657dc      0xc05 mdw/ugfx/src/gwin/gwin_button.o
+ .debug_info    0x000663e1      0xcd6 mdw/ugfx/src/gwin/gwin_container.o
+ .debug_info    0x000670b7     0x1079 mdw/ugfx/src/gwin/gwin_graph.o
+ .debug_info    0x00068130      0xa46 mdw/ugfx/src/gwin/gwin_image.o
+ .debug_info    0x00068b76      0xbba mdw/ugfx/src/gwin/gwin_label.o
+ .debug_info    0x00069730     0x101d mdw/ugfx/src/gwin/gwin_radio.o
+ .debug_info    0x0006a74d     0x1793 mdw/ugfx/src/gwin/gwin_widget.o
+ .debug_info    0x0006bee0     0x18c1 mdw/ugfx/src/gwin/gwin_wm.o
+ .debug_info    0x0006d7a1     0x587b platform/f7-disco-gcc/board/trace.o
+ .debug_info    0x0007301c     0x2fed platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_info    0x00076009       0x22 startup/startup_stm32f746xx.o
+ .debug_info    0x0007602b      0x9b0 ui-gen/gui.o
+ .debug_info    0x000769db      0x528 ui-gen/resources_manager.o
+ .debug_info    0x00076f03     0x3091 xf/core/behavior.o
+ .debug_info    0x00079f94      0x511 xf/core/initialevent.o
+ .debug_info    0x0007a4a5      0x697 xf/core/timeout.o
+ .debug_info    0x0007ab3c     0x3665 xf/port/default/dispatcher-active.o
+ .debug_info    0x0007e1a1      0x7de xf/port/default-cmsis-os/mutex-default.o
+ .debug_info    0x0007e97f     0x12b3 xf/port/default-cmsis-os/thread-default.o
+ .debug_info    0x0007fc32      0xa3d xf/port/stm32cube-cmsis-freertos/eventqueue.o
+ .debug_info    0x0008066f      0x7b6 xf/port/stm32cube-cmsis-freertos/resourcefactory.o
+ .debug_info    0x00080e25     0x918f xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
+ .debug_info    0x00089fb4      0x4f7 xf/port/stm32cube-cmsis-freertos/xf.o
 
 .debug_abbrev   0x00000000    0x1158d
  .debug_abbrev  0x00000000      0x1ed Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
@@ -32490,7 +32490,7 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .debug_abbrev  0x000106af      0xc32 xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
  .debug_abbrev  0x000112e1      0x2ac xf/port/stm32cube-cmsis-freertos/xf.o
 
-.debug_loc      0x00000000    0x30072
+.debug_loc      0x00000000    0x3009f
  .debug_loc     0x00000000       0xfd Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_loc     0x000000fd      0x881 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
  .debug_loc     0x0000097e      0x774 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o
@@ -32535,52 +32535,52 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .debug_loc     0x00020a1e      0x13e Src/system_stm32f7xx.o
  .debug_loc     0x00020b5c      0x154 app/factory.o
  .debug_loc     0x00020cb0      0x56e app/gui.o
- .debug_loc     0x0002121e      0xe11 app/oscilloscopecontroller.o
- .debug_loc     0x0002202f      0x262 mdw/sig-gen/pwmgenerator.o
- .debug_loc     0x00022291      0x674 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
- .debug_loc     0x00022905      0x408 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
- .debug_loc     0x00022d0d      0x3a3 mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
- .debug_loc     0x000230b0      0x1a4 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
- .debug_loc     0x00023254     0x20d1 mdw/ugfx/src/gdisp/gdisp.o
- .debug_loc     0x00025325      0x260 mdw/ugfx/src/gdisp/gdisp_fonts.o
- .debug_loc     0x00025585      0x69a mdw/ugfx/src/gdisp/gdisp_image.o
- .debug_loc     0x00025c1f     0x1481 mdw/ugfx/src/gdisp/gdisp_image_png.o
- .debug_loc     0x000270a0      0x108 mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
- .debug_loc     0x000271a8      0x1c1 mdw/ugfx/src/gdisp/mcufont/mf_font.o
- .debug_loc     0x00027369      0x6e0 mdw/ugfx/src/gdisp/mcufont/mf_justify.o
- .debug_loc     0x00027a49      0x82f mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
- .debug_loc     0x00028278      0x2d5 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
- .debug_loc     0x0002854d      0x21e mdw/ugfx/src/gdriver/gdriver.o
- .debug_loc     0x0002876b      0x40d mdw/ugfx/src/gevent/gevent.o
- .debug_loc     0x00028b78      0x940 mdw/ugfx/src/gfile/gfile.o
- .debug_loc     0x000294b8      0x212 mdw/ugfx/src/gfile/gfile_fs_rom.o
- .debug_loc     0x000296ca      0x513 mdw/ugfx/src/ginput/ginput_mouse.o
- .debug_loc     0x00029bdd      0x32b mdw/ugfx/src/gos/gos_freertos.o
- .debug_loc     0x00029f08      0x2a1 mdw/ugfx/src/gqueue/gqueue.o
- .debug_loc     0x0002a1a9      0x28a mdw/ugfx/src/gtimer/gtimer.o
- .debug_loc     0x0002a433      0xc3a mdw/ugfx/src/gwin/gwin.o
- .debug_loc     0x0002b06d      0x3ec mdw/ugfx/src/gwin/gwin_button.o
- .debug_loc     0x0002b459      0x488 mdw/ugfx/src/gwin/gwin_container.o
- .debug_loc     0x0002b8e1      0x929 mdw/ugfx/src/gwin/gwin_graph.o
- .debug_loc     0x0002c20a      0x353 mdw/ugfx/src/gwin/gwin_image.o
- .debug_loc     0x0002c55d      0x39a mdw/ugfx/src/gwin/gwin_label.o
- .debug_loc     0x0002c8f7      0x5dd mdw/ugfx/src/gwin/gwin_radio.o
- .debug_loc     0x0002ced4      0x632 mdw/ugfx/src/gwin/gwin_widget.o
- .debug_loc     0x0002d506      0xba7 mdw/ugfx/src/gwin/gwin_wm.o
- .debug_loc     0x0002e0ad      0x26b platform/f7-disco-gcc/board/trace.o
- .debug_loc     0x0002e318      0x2d1 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_loc     0x0002e5e9       0x63 ui-gen/gui.o
- .debug_loc     0x0002e64c       0xbc ui-gen/resources_manager.o
- .debug_loc     0x0002e708      0x223 xf/core/behavior.o
- .debug_loc     0x0002e92b       0x7a xf/core/initialevent.o
- .debug_loc     0x0002e9a5      0x124 xf/core/timeout.o
- .debug_loc     0x0002eac9      0x34d xf/port/default/dispatcher-active.o
- .debug_loc     0x0002ee16      0x104 xf/port/default-cmsis-os/mutex-default.o
- .debug_loc     0x0002ef1a      0x2e9 xf/port/default-cmsis-os/thread-default.o
- .debug_loc     0x0002f203      0x185 xf/port/stm32cube-cmsis-freertos/eventqueue.o
- .debug_loc     0x0002f388       0xf1 xf/port/stm32cube-cmsis-freertos/resourcefactory.o
- .debug_loc     0x0002f479      0xb6a xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
- .debug_loc     0x0002ffe3       0x8f xf/port/stm32cube-cmsis-freertos/xf.o
+ .debug_loc     0x0002121e      0xe3e app/oscilloscopecontroller.o
+ .debug_loc     0x0002205c      0x262 mdw/sig-gen/pwmgenerator.o
+ .debug_loc     0x000222be      0x674 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
+ .debug_loc     0x00022932      0x408 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
+ .debug_loc     0x00022d3a      0x3a3 mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
+ .debug_loc     0x000230dd      0x1a4 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
+ .debug_loc     0x00023281     0x20d1 mdw/ugfx/src/gdisp/gdisp.o
+ .debug_loc     0x00025352      0x260 mdw/ugfx/src/gdisp/gdisp_fonts.o
+ .debug_loc     0x000255b2      0x69a mdw/ugfx/src/gdisp/gdisp_image.o
+ .debug_loc     0x00025c4c     0x1481 mdw/ugfx/src/gdisp/gdisp_image_png.o
+ .debug_loc     0x000270cd      0x108 mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_loc     0x000271d5      0x1c1 mdw/ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_loc     0x00027396      0x6e0 mdw/ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_loc     0x00027a76      0x82f mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_loc     0x000282a5      0x2d5 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
+ .debug_loc     0x0002857a      0x21e mdw/ugfx/src/gdriver/gdriver.o
+ .debug_loc     0x00028798      0x40d mdw/ugfx/src/gevent/gevent.o
+ .debug_loc     0x00028ba5      0x940 mdw/ugfx/src/gfile/gfile.o
+ .debug_loc     0x000294e5      0x212 mdw/ugfx/src/gfile/gfile_fs_rom.o
+ .debug_loc     0x000296f7      0x513 mdw/ugfx/src/ginput/ginput_mouse.o
+ .debug_loc     0x00029c0a      0x32b mdw/ugfx/src/gos/gos_freertos.o
+ .debug_loc     0x00029f35      0x2a1 mdw/ugfx/src/gqueue/gqueue.o
+ .debug_loc     0x0002a1d6      0x28a mdw/ugfx/src/gtimer/gtimer.o
+ .debug_loc     0x0002a460      0xc3a mdw/ugfx/src/gwin/gwin.o
+ .debug_loc     0x0002b09a      0x3ec mdw/ugfx/src/gwin/gwin_button.o
+ .debug_loc     0x0002b486      0x488 mdw/ugfx/src/gwin/gwin_container.o
+ .debug_loc     0x0002b90e      0x929 mdw/ugfx/src/gwin/gwin_graph.o
+ .debug_loc     0x0002c237      0x353 mdw/ugfx/src/gwin/gwin_image.o
+ .debug_loc     0x0002c58a      0x39a mdw/ugfx/src/gwin/gwin_label.o
+ .debug_loc     0x0002c924      0x5dd mdw/ugfx/src/gwin/gwin_radio.o
+ .debug_loc     0x0002cf01      0x632 mdw/ugfx/src/gwin/gwin_widget.o
+ .debug_loc     0x0002d533      0xba7 mdw/ugfx/src/gwin/gwin_wm.o
+ .debug_loc     0x0002e0da      0x26b platform/f7-disco-gcc/board/trace.o
+ .debug_loc     0x0002e345      0x2d1 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_loc     0x0002e616       0x63 ui-gen/gui.o
+ .debug_loc     0x0002e679       0xbc ui-gen/resources_manager.o
+ .debug_loc     0x0002e735      0x223 xf/core/behavior.o
+ .debug_loc     0x0002e958       0x7a xf/core/initialevent.o
+ .debug_loc     0x0002e9d2      0x124 xf/core/timeout.o
+ .debug_loc     0x0002eaf6      0x34d xf/port/default/dispatcher-active.o
+ .debug_loc     0x0002ee43      0x104 xf/port/default-cmsis-os/mutex-default.o
+ .debug_loc     0x0002ef47      0x2e9 xf/port/default-cmsis-os/thread-default.o
+ .debug_loc     0x0002f230      0x185 xf/port/stm32cube-cmsis-freertos/eventqueue.o
+ .debug_loc     0x0002f3b5       0xf1 xf/port/stm32cube-cmsis-freertos/resourcefactory.o
+ .debug_loc     0x0002f4a6      0xb6a xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
+ .debug_loc     0x00030010       0x8f xf/port/stm32cube-cmsis-freertos/xf.o
 
 .debug_aranges  0x00000000     0x4038
  .debug_aranges
@@ -32772,7 +32772,7 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .debug_aranges
                 0x00003ff0       0x48 xf/port/stm32cube-cmsis-freertos/xf.o
 
-.debug_ranges   0x00000000     0x4050
+.debug_ranges   0x00000000     0x4030
  .debug_ranges  0x00000000       0xf0 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_ranges  0x000000f0       0xd8 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
  .debug_ranges  0x000001c8       0x80 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o
@@ -32818,55 +32818,55 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .debug_ranges  0x000027f0       0x18 Src/system_stm32f7xx.o
  .debug_ranges  0x00002808       0x78 app/factory.o
  .debug_ranges  0x00002880      0x100 app/gui.o
- .debug_ranges  0x00002980      0x1c8 app/oscilloscopecontroller.o
- .debug_ranges  0x00002b48       0x58 mdw/sig-gen/pwmgenerator.o
- .debug_ranges  0x00002ba0       0x80 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
- .debug_ranges  0x00002c20       0x50 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
- .debug_ranges  0x00002c70       0x88 mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
- .debug_ranges  0x00002cf8       0x38 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
- .debug_ranges  0x00002d30      0x228 mdw/ugfx/src/gdisp/gdisp.o
- .debug_ranges  0x00002f58       0x38 mdw/ugfx/src/gdisp/gdisp_fonts.o
- .debug_ranges  0x00002f90       0x70 mdw/ugfx/src/gdisp/gdisp_image.o
- .debug_ranges  0x00003000      0x158 mdw/ugfx/src/gdisp/gdisp_image_png.o
- .debug_ranges  0x00003158       0x18 mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
- .debug_ranges  0x00003170       0x30 mdw/ugfx/src/gdisp/mcufont/mf_font.o
- .debug_ranges  0x000031a0       0x48 mdw/ugfx/src/gdisp/mcufont/mf_justify.o
- .debug_ranges  0x000031e8       0x78 mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
- .debug_ranges  0x00003260       0x28 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
- .debug_ranges  0x00003288       0x48 mdw/ugfx/src/gdriver/gdriver.o
- .debug_ranges  0x000032d0       0x78 mdw/ugfx/src/gevent/gevent.o
- .debug_ranges  0x00003348       0xa0 mdw/ugfx/src/gfile/gfile.o
- .debug_ranges  0x000033e8       0x50 mdw/ugfx/src/gfile/gfile_fs_rom.o
- .debug_ranges  0x00003438       0x18 mdw/ugfx/src/gfx.o
- .debug_ranges  0x00003450       0x18 mdw/ugfx/src/ginput/ginput.o
- .debug_ranges  0x00003468       0xb0 mdw/ugfx/src/ginput/ginput_mouse.o
- .debug_ranges  0x00003518       0x70 mdw/ugfx/src/gos/gos_freertos.o
- .debug_ranges  0x00003588       0x80 mdw/ugfx/src/gqueue/gqueue.o
- .debug_ranges  0x00003608       0x58 mdw/ugfx/src/gtimer/gtimer.o
- .debug_ranges  0x00003660       0xf8 mdw/ugfx/src/gwin/gwin.o
- .debug_ranges  0x00003758       0x40 mdw/ugfx/src/gwin/gwin_button.o
- .debug_ranges  0x00003798       0x70 mdw/ugfx/src/gwin/gwin_container.o
- .debug_ranges  0x00003808       0x50 mdw/ugfx/src/gwin/gwin_graph.o
- .debug_ranges  0x00003858       0x30 mdw/ugfx/src/gwin/gwin_image.o
- .debug_ranges  0x00003888       0x48 mdw/ugfx/src/gwin/gwin_label.o
- .debug_ranges  0x000038d0       0x58 mdw/ugfx/src/gwin/gwin_radio.o
- .debug_ranges  0x00003928       0x98 mdw/ugfx/src/gwin/gwin_widget.o
- .debug_ranges  0x000039c0      0x108 mdw/ugfx/src/gwin/gwin_wm.o
- .debug_ranges  0x00003ac8       0x78 platform/f7-disco-gcc/board/trace.o
- .debug_ranges  0x00003b40       0x60 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_ranges  0x00003ba0       0x20 startup/startup_stm32f746xx.o
- .debug_ranges  0x00003bc0       0x28 ui-gen/gui.o
- .debug_ranges  0x00003be8       0x28 ui-gen/resources_manager.o
- .debug_ranges  0x00003c10       0x68 xf/core/behavior.o
- .debug_ranges  0x00003c78       0x28 xf/core/initialevent.o
- .debug_ranges  0x00003ca0       0x30 xf/core/timeout.o
- .debug_ranges  0x00003cd0       0xd8 xf/port/default/dispatcher-active.o
- .debug_ranges  0x00003da8       0x58 xf/port/default-cmsis-os/mutex-default.o
- .debug_ranges  0x00003e00       0x80 xf/port/default-cmsis-os/thread-default.o
- .debug_ranges  0x00003e80       0x60 xf/port/stm32cube-cmsis-freertos/eventqueue.o
- .debug_ranges  0x00003ee0       0x40 xf/port/stm32cube-cmsis-freertos/resourcefactory.o
- .debug_ranges  0x00003f20       0xf8 xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
- .debug_ranges  0x00004018       0x38 xf/port/stm32cube-cmsis-freertos/xf.o
+ .debug_ranges  0x00002980      0x1a8 app/oscilloscopecontroller.o
+ .debug_ranges  0x00002b28       0x58 mdw/sig-gen/pwmgenerator.o
+ .debug_ranges  0x00002b80       0x80 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
+ .debug_ranges  0x00002c00       0x50 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
+ .debug_ranges  0x00002c50       0x88 mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
+ .debug_ranges  0x00002cd8       0x38 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
+ .debug_ranges  0x00002d10      0x228 mdw/ugfx/src/gdisp/gdisp.o
+ .debug_ranges  0x00002f38       0x38 mdw/ugfx/src/gdisp/gdisp_fonts.o
+ .debug_ranges  0x00002f70       0x70 mdw/ugfx/src/gdisp/gdisp_image.o
+ .debug_ranges  0x00002fe0      0x158 mdw/ugfx/src/gdisp/gdisp_image_png.o
+ .debug_ranges  0x00003138       0x18 mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_ranges  0x00003150       0x30 mdw/ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_ranges  0x00003180       0x48 mdw/ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_ranges  0x000031c8       0x78 mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_ranges  0x00003240       0x28 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
+ .debug_ranges  0x00003268       0x48 mdw/ugfx/src/gdriver/gdriver.o
+ .debug_ranges  0x000032b0       0x78 mdw/ugfx/src/gevent/gevent.o
+ .debug_ranges  0x00003328       0xa0 mdw/ugfx/src/gfile/gfile.o
+ .debug_ranges  0x000033c8       0x50 mdw/ugfx/src/gfile/gfile_fs_rom.o
+ .debug_ranges  0x00003418       0x18 mdw/ugfx/src/gfx.o
+ .debug_ranges  0x00003430       0x18 mdw/ugfx/src/ginput/ginput.o
+ .debug_ranges  0x00003448       0xb0 mdw/ugfx/src/ginput/ginput_mouse.o
+ .debug_ranges  0x000034f8       0x70 mdw/ugfx/src/gos/gos_freertos.o
+ .debug_ranges  0x00003568       0x80 mdw/ugfx/src/gqueue/gqueue.o
+ .debug_ranges  0x000035e8       0x58 mdw/ugfx/src/gtimer/gtimer.o
+ .debug_ranges  0x00003640       0xf8 mdw/ugfx/src/gwin/gwin.o
+ .debug_ranges  0x00003738       0x40 mdw/ugfx/src/gwin/gwin_button.o
+ .debug_ranges  0x00003778       0x70 mdw/ugfx/src/gwin/gwin_container.o
+ .debug_ranges  0x000037e8       0x50 mdw/ugfx/src/gwin/gwin_graph.o
+ .debug_ranges  0x00003838       0x30 mdw/ugfx/src/gwin/gwin_image.o
+ .debug_ranges  0x00003868       0x48 mdw/ugfx/src/gwin/gwin_label.o
+ .debug_ranges  0x000038b0       0x58 mdw/ugfx/src/gwin/gwin_radio.o
+ .debug_ranges  0x00003908       0x98 mdw/ugfx/src/gwin/gwin_widget.o
+ .debug_ranges  0x000039a0      0x108 mdw/ugfx/src/gwin/gwin_wm.o
+ .debug_ranges  0x00003aa8       0x78 platform/f7-disco-gcc/board/trace.o
+ .debug_ranges  0x00003b20       0x60 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_ranges  0x00003b80       0x20 startup/startup_stm32f746xx.o
+ .debug_ranges  0x00003ba0       0x28 ui-gen/gui.o
+ .debug_ranges  0x00003bc8       0x28 ui-gen/resources_manager.o
+ .debug_ranges  0x00003bf0       0x68 xf/core/behavior.o
+ .debug_ranges  0x00003c58       0x28 xf/core/initialevent.o
+ .debug_ranges  0x00003c80       0x30 xf/core/timeout.o
+ .debug_ranges  0x00003cb0       0xd8 xf/port/default/dispatcher-active.o
+ .debug_ranges  0x00003d88       0x58 xf/port/default-cmsis-os/mutex-default.o
+ .debug_ranges  0x00003de0       0x80 xf/port/default-cmsis-os/thread-default.o
+ .debug_ranges  0x00003e60       0x60 xf/port/stm32cube-cmsis-freertos/eventqueue.o
+ .debug_ranges  0x00003ec0       0x40 xf/port/stm32cube-cmsis-freertos/resourcefactory.o
+ .debug_ranges  0x00003f00       0xf8 xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
+ .debug_ranges  0x00003ff8       0x38 xf/port/stm32cube-cmsis-freertos/xf.o
 
 .debug_macro    0x00000000    0x43b99
  .debug_macro   0x00000000      0x2e2 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
@@ -33199,7 +33199,7 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .debug_macro   0x00043328      0x695 xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
  .debug_macro   0x000439bd      0x1dc xf/port/stm32cube-cmsis-freertos/xf.o
 
-.debug_line     0x00000000    0x5710f
+.debug_line     0x00000000    0x57115
  .debug_line    0x00000000      0xb98 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_line    0x00000b98      0xdf9 Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
  .debug_line    0x00001991      0xc9f Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o
@@ -33245,55 +33245,55 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .debug_line    0x00023cf5      0x99b Src/system_stm32f7xx.o
  .debug_line    0x00024690     0x2196 app/factory.o
  .debug_line    0x00026826     0x21b2 app/gui.o
- .debug_line    0x000289d8     0x2460 app/oscilloscopecontroller.o
- .debug_line    0x0002ae38     0x1484 mdw/sig-gen/pwmgenerator.o
- .debug_line    0x0002c2bc     0x1b87 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
- .debug_line    0x0002de43     0x1471 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
- .debug_line    0x0002f2b4     0x16f8 mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
- .debug_line    0x000309ac     0x14a6 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
- .debug_line    0x00031e52     0x16d6 mdw/ugfx/src/gdisp/gdisp.o
- .debug_line    0x00033528      0xe53 mdw/ugfx/src/gdisp/gdisp_fonts.o
- .debug_line    0x0003437b      0xe6b mdw/ugfx/src/gdisp/gdisp_image.o
- .debug_line    0x000351e6     0x16bc mdw/ugfx/src/gdisp/gdisp_image_png.o
- .debug_line    0x000368a2      0xd8d mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
- .debug_line    0x0003762f      0xf51 mdw/ugfx/src/gdisp/mcufont/mf_font.o
- .debug_line    0x00038580      0xe8e mdw/ugfx/src/gdisp/mcufont/mf_justify.o
- .debug_line    0x0003940e      0xebb mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
- .debug_line    0x0003a2c9      0xdc2 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
- .debug_line    0x0003b08b      0xe83 mdw/ugfx/src/gdriver/gdriver.o
- .debug_line    0x0003bf0e      0xe68 mdw/ugfx/src/gevent/gevent.o
- .debug_line    0x0003cd76      0xf80 mdw/ugfx/src/gfile/gfile.o
- .debug_line    0x0003dcf6      0xef8 mdw/ugfx/src/gfile/gfile_fs_rom.o
- .debug_line    0x0003ebee      0xd03 mdw/ugfx/src/gfx.o
- .debug_line    0x0003f8f1      0xce1 mdw/ugfx/src/ginput/ginput.o
- .debug_line    0x000405d2     0x1049 mdw/ugfx/src/ginput/ginput_mouse.o
- .debug_line    0x0004161b      0xe6b mdw/ugfx/src/gos/gos_freertos.o
- .debug_line    0x00042486      0xe0f mdw/ugfx/src/gqueue/gqueue.o
- .debug_line    0x00043295      0xe0c mdw/ugfx/src/gtimer/gtimer.o
- .debug_line    0x000440a1     0x101e mdw/ugfx/src/gwin/gwin.o
- .debug_line    0x000450bf      0xda2 mdw/ugfx/src/gwin/gwin_button.o
- .debug_line    0x00045e61      0xe26 mdw/ugfx/src/gwin/gwin_container.o
- .debug_line    0x00046c87      0xec7 mdw/ugfx/src/gwin/gwin_graph.o
- .debug_line    0x00047b4e      0xd73 mdw/ugfx/src/gwin/gwin_image.o
- .debug_line    0x000488c1      0xdd3 mdw/ugfx/src/gwin/gwin_label.o
- .debug_line    0x00049694      0xe27 mdw/ugfx/src/gwin/gwin_radio.o
- .debug_line    0x0004a4bb      0xfc8 mdw/ugfx/src/gwin/gwin_widget.o
- .debug_line    0x0004b483     0x1184 mdw/ugfx/src/gwin/gwin_wm.o
- .debug_line    0x0004c607     0x1597 platform/f7-disco-gcc/board/trace.o
- .debug_line    0x0004db9e     0x14e7 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_line    0x0004f085       0x7f startup/startup_stm32f746xx.o
- .debug_line    0x0004f104      0xe16 ui-gen/gui.o
- .debug_line    0x0004ff1a      0xd8b ui-gen/resources_manager.o
- .debug_line    0x00050ca5     0x11fe xf/core/behavior.o
- .debug_line    0x00051ea3      0x11a xf/core/initialevent.o
- .debug_line    0x00051fbd      0x139 xf/core/timeout.o
- .debug_line    0x000520f6     0x12fe xf/port/default/dispatcher-active.o
- .debug_line    0x000533f4      0x7d7 xf/port/default-cmsis-os/mutex-default.o
- .debug_line    0x00053bcb      0x898 xf/port/default-cmsis-os/thread-default.o
- .debug_line    0x00054463      0x792 xf/port/stm32cube-cmsis-freertos/eventqueue.o
- .debug_line    0x00054bf5      0x8ae xf/port/stm32cube-cmsis-freertos/resourcefactory.o
- .debug_line    0x000554a3     0x147c xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
- .debug_line    0x0005691f      0x7f0 xf/port/stm32cube-cmsis-freertos/xf.o
+ .debug_line    0x000289d8     0x2466 app/oscilloscopecontroller.o
+ .debug_line    0x0002ae3e     0x1484 mdw/sig-gen/pwmgenerator.o
+ .debug_line    0x0002c2c2     0x1b87 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
+ .debug_line    0x0002de49     0x1471 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
+ .debug_line    0x0002f2ba     0x16f8 mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
+ .debug_line    0x000309b2     0x14a6 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
+ .debug_line    0x00031e58     0x16d6 mdw/ugfx/src/gdisp/gdisp.o
+ .debug_line    0x0003352e      0xe53 mdw/ugfx/src/gdisp/gdisp_fonts.o
+ .debug_line    0x00034381      0xe6b mdw/ugfx/src/gdisp/gdisp_image.o
+ .debug_line    0x000351ec     0x16bc mdw/ugfx/src/gdisp/gdisp_image_png.o
+ .debug_line    0x000368a8      0xd8d mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_line    0x00037635      0xf51 mdw/ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_line    0x00038586      0xe8e mdw/ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_line    0x00039414      0xebb mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_line    0x0003a2cf      0xdc2 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
+ .debug_line    0x0003b091      0xe83 mdw/ugfx/src/gdriver/gdriver.o
+ .debug_line    0x0003bf14      0xe68 mdw/ugfx/src/gevent/gevent.o
+ .debug_line    0x0003cd7c      0xf80 mdw/ugfx/src/gfile/gfile.o
+ .debug_line    0x0003dcfc      0xef8 mdw/ugfx/src/gfile/gfile_fs_rom.o
+ .debug_line    0x0003ebf4      0xd03 mdw/ugfx/src/gfx.o
+ .debug_line    0x0003f8f7      0xce1 mdw/ugfx/src/ginput/ginput.o
+ .debug_line    0x000405d8     0x1049 mdw/ugfx/src/ginput/ginput_mouse.o
+ .debug_line    0x00041621      0xe6b mdw/ugfx/src/gos/gos_freertos.o
+ .debug_line    0x0004248c      0xe0f mdw/ugfx/src/gqueue/gqueue.o
+ .debug_line    0x0004329b      0xe0c mdw/ugfx/src/gtimer/gtimer.o
+ .debug_line    0x000440a7     0x101e mdw/ugfx/src/gwin/gwin.o
+ .debug_line    0x000450c5      0xda2 mdw/ugfx/src/gwin/gwin_button.o
+ .debug_line    0x00045e67      0xe26 mdw/ugfx/src/gwin/gwin_container.o
+ .debug_line    0x00046c8d      0xec7 mdw/ugfx/src/gwin/gwin_graph.o
+ .debug_line    0x00047b54      0xd73 mdw/ugfx/src/gwin/gwin_image.o
+ .debug_line    0x000488c7      0xdd3 mdw/ugfx/src/gwin/gwin_label.o
+ .debug_line    0x0004969a      0xe27 mdw/ugfx/src/gwin/gwin_radio.o
+ .debug_line    0x0004a4c1      0xfc8 mdw/ugfx/src/gwin/gwin_widget.o
+ .debug_line    0x0004b489     0x1184 mdw/ugfx/src/gwin/gwin_wm.o
+ .debug_line    0x0004c60d     0x1597 platform/f7-disco-gcc/board/trace.o
+ .debug_line    0x0004dba4     0x14e7 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_line    0x0004f08b       0x7f startup/startup_stm32f746xx.o
+ .debug_line    0x0004f10a      0xe16 ui-gen/gui.o
+ .debug_line    0x0004ff20      0xd8b ui-gen/resources_manager.o
+ .debug_line    0x00050cab     0x11fe xf/core/behavior.o
+ .debug_line    0x00051ea9      0x11a xf/core/initialevent.o
+ .debug_line    0x00051fc3      0x139 xf/core/timeout.o
+ .debug_line    0x000520fc     0x12fe xf/port/default/dispatcher-active.o
+ .debug_line    0x000533fa      0x7d7 xf/port/default-cmsis-os/mutex-default.o
+ .debug_line    0x00053bd1      0x898 xf/port/default-cmsis-os/thread-default.o
+ .debug_line    0x00054469      0x792 xf/port/stm32cube-cmsis-freertos/eventqueue.o
+ .debug_line    0x00054bfb      0x8ae xf/port/stm32cube-cmsis-freertos/resourcefactory.o
+ .debug_line    0x000554a9     0x147c xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
+ .debug_line    0x00056925      0x7f0 xf/port/stm32cube-cmsis-freertos/xf.o
 
 .debug_str      0x00000000   0x13da3f
  .debug_str     0x00000000   0x10024e Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
@@ -33581,7 +33581,7 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .comment       0x0000007f       0x80 xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
  .comment       0x0000007f       0x80 xf/port/stm32cube-cmsis-freertos/xf.o
 
-.debug_frame    0x00000000     0xd880
+.debug_frame    0x00000000     0xd884
  .debug_frame   0x00000000      0x20c Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
  .debug_frame   0x0000020c      0x27c Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o
  .debug_frame   0x00000488      0x18c Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o
@@ -33627,117 +33627,117 @@ OUTPUT(SW4STM32-RealtimeOscilloscope.elf elf32-littlearm)
  .debug_frame   0x000074c8       0x3c Src/system_stm32f7xx.o
  .debug_frame   0x00007504      0x188 app/factory.o
  .debug_frame   0x0000768c      0x1ec app/gui.o
- .debug_frame   0x00007878      0x2c0 app/oscilloscopecontroller.o
- .debug_frame   0x00007b38       0xcc mdw/sig-gen/pwmgenerator.o
- .debug_frame   0x00007c04      0x178 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
- .debug_frame   0x00007d7c      0x110 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
- .debug_frame   0x00007e8c       0xfc mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
- .debug_frame   0x00007f88       0xa4 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
- .debug_frame   0x0000802c      0x4f0 mdw/ugfx/src/gdisp/gdisp.o
- .debug_frame   0x0000851c       0xa4 mdw/ugfx/src/gdisp/gdisp_fonts.o
- .debug_frame   0x000085c0      0x188 mdw/ugfx/src/gdisp/gdisp_image.o
- .debug_frame   0x00008748      0x4b4 mdw/ugfx/src/gdisp/gdisp_image_png.o
- .debug_frame   0x00008bfc       0x50 mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
- .debug_frame   0x00008c4c       0x9c mdw/ugfx/src/gdisp/mcufont/mf_font.o
- .debug_frame   0x00008ce8      0x134 mdw/ugfx/src/gdisp/mcufont/mf_justify.o
- .debug_frame   0x00008e1c      0x140 mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
- .debug_frame   0x00008f5c       0x94 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
- .debug_frame   0x00008ff0       0xd0 mdw/ugfx/src/gdriver/gdriver.o
- .debug_frame   0x000090c0      0x190 mdw/ugfx/src/gevent/gevent.o
- .debug_frame   0x00009250      0x228 mdw/ugfx/src/gfile/gfile.o
- .debug_frame   0x00009478       0xd0 mdw/ugfx/src/gfile/gfile_fs_rom.o
- .debug_frame   0x00009548       0x40 mdw/ugfx/src/gfx.o
- .debug_frame   0x00009588       0x40 mdw/ugfx/src/ginput/ginput.o
- .debug_frame   0x000095c8      0x198 mdw/ugfx/src/ginput/ginput_mouse.o
- .debug_frame   0x00009760      0x148 mdw/ugfx/src/gos/gos_freertos.o
- .debug_frame   0x000098a8      0x168 mdw/ugfx/src/gqueue/gqueue.o
- .debug_frame   0x00009a10      0x110 mdw/ugfx/src/gtimer/gtimer.o
- .debug_frame   0x00009b20      0x364 mdw/ugfx/src/gwin/gwin.o
- .debug_frame   0x00009e84       0xd4 mdw/ugfx/src/gwin/gwin_button.o
- .debug_frame   0x00009f58      0x164 mdw/ugfx/src/gwin/gwin_container.o
- .debug_frame   0x0000a0bc      0x150 mdw/ugfx/src/gwin/gwin_graph.o
- .debug_frame   0x0000a20c       0xb0 mdw/ugfx/src/gwin/gwin_image.o
- .debug_frame   0x0000a2bc       0xe8 mdw/ugfx/src/gwin/gwin_label.o
- .debug_frame   0x0000a3a4      0x130 mdw/ugfx/src/gwin/gwin_radio.o
- .debug_frame   0x0000a4d4      0x1ac mdw/ugfx/src/gwin/gwin_widget.o
- .debug_frame   0x0000a680      0x31c mdw/ugfx/src/gwin/gwin_wm.o
- .debug_frame   0x0000a99c      0x120 platform/f7-disco-gcc/board/trace.o
- .debug_frame   0x0000aabc       0xb8 platform/f7-disco-gcc/mcu/hal/uart.o
- .debug_frame   0x0000ab74       0x90 ui-gen/gui.o
- .debug_frame   0x0000ac04       0x5c ui-gen/resources_manager.o
- .debug_frame   0x0000ac60      0x10c xf/core/behavior.o
- .debug_frame   0x0000ad6c       0x58 xf/core/initialevent.o
- .debug_frame   0x0000adc4       0x74 xf/core/timeout.o
- .debug_frame   0x0000ae38      0x20c xf/port/default/dispatcher-active.o
- .debug_frame   0x0000b044       0xb0 xf/port/default-cmsis-os/mutex-default.o
- .debug_frame   0x0000b0f4       0xec xf/port/default-cmsis-os/thread-default.o
- .debug_frame   0x0000b1e0       0xe4 xf/port/stm32cube-cmsis-freertos/eventqueue.o
- .debug_frame   0x0000b2c4       0xc0 xf/port/stm32cube-cmsis-freertos/resourcefactory.o
- .debug_frame   0x0000b384      0x1f8 xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
- .debug_frame   0x0000b57c       0xa0 xf/port/stm32cube-cmsis-freertos/xf.o
- .debug_frame   0x0000b61c       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_op.o)
- .debug_frame   0x0000b644       0x40 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(guard.o)
- .debug_frame   0x0000b684       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(del_op.o)
- .debug_frame   0x0000b6a4       0x40 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(pure.o)
- .debug_frame   0x0000b6e4       0x30 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_handler.o)
- .debug_frame   0x0000b714       0xb0 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(eh_terminate.o)
- .debug_frame   0x0000b7c4       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(atexit_arm.o)
- .debug_frame   0x0000b7e4       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(del_ops.o)
- .debug_frame   0x0000b804       0x68 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(list.o)
- .debug_frame   0x0000b86c     0x1160 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(string-inst.o)
- .debug_frame   0x0000c9cc      0x170 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(functexcept.o)
- .debug_frame   0x0000cb3c       0xac c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000cbe8       0x50 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x0000cc38       0x24 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x0000cc5c       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000cc88       0x34 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000ccbc       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-abort.o)
- .debug_frame   0x0000cce4       0x40 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-assert.o)
- .debug_frame   0x0000cd24       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-cxa_atexit.o)
- .debug_frame   0x0000cd4c       0x64 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-fprintf.o)
- .debug_frame   0x0000cdb0       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000cddc       0x30 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-malloc.o)
- .debug_frame   0x0000ce0c       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000ce34       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000ce5c       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000ce7c       0x38 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000ceb4       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000cee0       0xac c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_frame   0x0000cf8c       0x60 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000cfec       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000d018       0xcc c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-signal.o)
- .debug_frame   0x0000d0e4       0x3c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-signalr.o)
- .debug_frame   0x0000d120       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strcmp.o)
- .debug_frame   0x0000d140       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strcpy.o)
- .debug_frame   0x0000d160       0x3c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-vsprintf.o)
- .debug_frame   0x0000d19c       0x40 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-wbuf.o)
- .debug_frame   0x0000d1dc       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-wsetup.o)
- .debug_frame   0x0000d208       0x68 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-fflush.o)
- .debug_frame   0x0000d270      0x11c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-findfp.o)
- .debug_frame   0x0000d38c       0x54 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-fwalk.o)
- .debug_frame   0x0000d3e0       0x58 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-makebuf.o)
- .debug_frame   0x0000d438       0x30 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000d468       0x3c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000d4a4       0x90 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x0000d534       0x5c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-reent.o)
- .debug_frame   0x0000d590       0x88 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-stdio.o)
- .debug_frame   0x0000d618       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-writer.o)
- .debug_frame   0x0000d644       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-closer.o)
- .debug_frame   0x0000d670       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-fstatr.o)
- .debug_frame   0x0000d69c       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-isattyr.o)
- .debug_frame   0x0000d6c8       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-lseekr.o)
- .debug_frame   0x0000d6f4       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x0000d714       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-readr.o)
- .debug_frame   0x0000d740       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(close.o)
- .debug_frame   0x0000d760       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(fstat.o)
- .debug_frame   0x0000d780       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(getpid.o)
- .debug_frame   0x0000d7a0       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(isatty.o)
- .debug_frame   0x0000d7c0       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(kill.o)
- .debug_frame   0x0000d7e0       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(lseek.o)
- .debug_frame   0x0000d800       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(read.o)
- .debug_frame   0x0000d820       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(sbrk.o)
- .debug_frame   0x0000d840       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(write.o)
- .debug_frame   0x0000d860       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .debug_frame   0x00007878      0x2c4 app/oscilloscopecontroller.o
+ .debug_frame   0x00007b3c       0xcc mdw/sig-gen/pwmgenerator.o
+ .debug_frame   0x00007c08      0x178 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f746g_discovery_sdram.o
+ .debug_frame   0x00007d80      0x110 mdw/ugfx/boards/base/STM32F746-Discovery/stm32f7_i2c.o
+ .debug_frame   0x00007e90       0xfc mdw/ugfx/drivers/gdisp/STM32LTDC/gdisp_lld_STM32LTDC.o
+ .debug_frame   0x00007f8c       0xa4 mdw/ugfx/drivers/ginput/touch/FT5336/gmouse_lld_FT5336.o
+ .debug_frame   0x00008030      0x4f0 mdw/ugfx/src/gdisp/gdisp.o
+ .debug_frame   0x00008520       0xa4 mdw/ugfx/src/gdisp/gdisp_fonts.o
+ .debug_frame   0x000085c4      0x188 mdw/ugfx/src/gdisp/gdisp_image.o
+ .debug_frame   0x0000874c      0x4b4 mdw/ugfx/src/gdisp/gdisp_image_png.o
+ .debug_frame   0x00008c00       0x50 mdw/ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_frame   0x00008c50       0x9c mdw/ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_frame   0x00008cec      0x134 mdw/ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_frame   0x00008e20      0x140 mdw/ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_frame   0x00008f60       0x94 mdw/ugfx/src/gdisp/mcufont/mf_scaledfont.o
+ .debug_frame   0x00008ff4       0xd0 mdw/ugfx/src/gdriver/gdriver.o
+ .debug_frame   0x000090c4      0x190 mdw/ugfx/src/gevent/gevent.o
+ .debug_frame   0x00009254      0x228 mdw/ugfx/src/gfile/gfile.o
+ .debug_frame   0x0000947c       0xd0 mdw/ugfx/src/gfile/gfile_fs_rom.o
+ .debug_frame   0x0000954c       0x40 mdw/ugfx/src/gfx.o
+ .debug_frame   0x0000958c       0x40 mdw/ugfx/src/ginput/ginput.o
+ .debug_frame   0x000095cc      0x198 mdw/ugfx/src/ginput/ginput_mouse.o
+ .debug_frame   0x00009764      0x148 mdw/ugfx/src/gos/gos_freertos.o
+ .debug_frame   0x000098ac      0x168 mdw/ugfx/src/gqueue/gqueue.o
+ .debug_frame   0x00009a14      0x110 mdw/ugfx/src/gtimer/gtimer.o
+ .debug_frame   0x00009b24      0x364 mdw/ugfx/src/gwin/gwin.o
+ .debug_frame   0x00009e88       0xd4 mdw/ugfx/src/gwin/gwin_button.o
+ .debug_frame   0x00009f5c      0x164 mdw/ugfx/src/gwin/gwin_container.o
+ .debug_frame   0x0000a0c0      0x150 mdw/ugfx/src/gwin/gwin_graph.o
+ .debug_frame   0x0000a210       0xb0 mdw/ugfx/src/gwin/gwin_image.o
+ .debug_frame   0x0000a2c0       0xe8 mdw/ugfx/src/gwin/gwin_label.o
+ .debug_frame   0x0000a3a8      0x130 mdw/ugfx/src/gwin/gwin_radio.o
+ .debug_frame   0x0000a4d8      0x1ac mdw/ugfx/src/gwin/gwin_widget.o
+ .debug_frame   0x0000a684      0x31c mdw/ugfx/src/gwin/gwin_wm.o
+ .debug_frame   0x0000a9a0      0x120 platform/f7-disco-gcc/board/trace.o
+ .debug_frame   0x0000aac0       0xb8 platform/f7-disco-gcc/mcu/hal/uart.o
+ .debug_frame   0x0000ab78       0x90 ui-gen/gui.o
+ .debug_frame   0x0000ac08       0x5c ui-gen/resources_manager.o
+ .debug_frame   0x0000ac64      0x10c xf/core/behavior.o
+ .debug_frame   0x0000ad70       0x58 xf/core/initialevent.o
+ .debug_frame   0x0000adc8       0x74 xf/core/timeout.o
+ .debug_frame   0x0000ae3c      0x20c xf/port/default/dispatcher-active.o
+ .debug_frame   0x0000b048       0xb0 xf/port/default-cmsis-os/mutex-default.o
+ .debug_frame   0x0000b0f8       0xec xf/port/default-cmsis-os/thread-default.o
+ .debug_frame   0x0000b1e4       0xe4 xf/port/stm32cube-cmsis-freertos/eventqueue.o
+ .debug_frame   0x0000b2c8       0xc0 xf/port/stm32cube-cmsis-freertos/resourcefactory.o
+ .debug_frame   0x0000b388      0x1f8 xf/port/stm32cube-cmsis-freertos/timeoutmanager.o
+ .debug_frame   0x0000b580       0xa0 xf/port/stm32cube-cmsis-freertos/xf.o
+ .debug_frame   0x0000b620       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_op.o)
+ .debug_frame   0x0000b648       0x40 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(guard.o)
+ .debug_frame   0x0000b688       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(del_op.o)
+ .debug_frame   0x0000b6a8       0x40 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(pure.o)
+ .debug_frame   0x0000b6e8       0x30 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_handler.o)
+ .debug_frame   0x0000b718       0xb0 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(eh_terminate.o)
+ .debug_frame   0x0000b7c8       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(atexit_arm.o)
+ .debug_frame   0x0000b7e8       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(del_ops.o)
+ .debug_frame   0x0000b808       0x68 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(list.o)
+ .debug_frame   0x0000b870     0x1160 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(string-inst.o)
+ .debug_frame   0x0000c9d0      0x170 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(functexcept.o)
+ .debug_frame   0x0000cb40       0xac c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000cbec       0x50 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000cc3c       0x24 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000cc60       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000cc8c       0x34 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000ccc0       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-abort.o)
+ .debug_frame   0x0000cce8       0x40 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-assert.o)
+ .debug_frame   0x0000cd28       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_frame   0x0000cd50       0x64 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-fprintf.o)
+ .debug_frame   0x0000cdb4       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000cde0       0x30 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x0000ce10       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000ce38       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000ce60       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000ce80       0x38 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000ceb8       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000cee4       0xac c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x0000cf90       0x60 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000cff0       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000d01c       0xcc c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-signal.o)
+ .debug_frame   0x0000d0e8       0x3c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-signalr.o)
+ .debug_frame   0x0000d124       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x0000d144       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strcpy.o)
+ .debug_frame   0x0000d164       0x3c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-vsprintf.o)
+ .debug_frame   0x0000d1a0       0x40 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000d1e0       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000d20c       0x68 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-fflush.o)
+ .debug_frame   0x0000d274      0x11c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000d390       0x54 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x0000d3e4       0x58 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x0000d43c       0x30 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000d46c       0x3c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000d4a8       0x90 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000d538       0x5c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000d594       0x88 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000d61c       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-writer.o)
+ .debug_frame   0x0000d648       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-closer.o)
+ .debug_frame   0x0000d674       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x0000d6a0       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x0000d6cc       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x0000d6f8       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000d718       0x2c c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-readr.o)
+ .debug_frame   0x0000d744       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(close.o)
+ .debug_frame   0x0000d764       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(fstat.o)
+ .debug_frame   0x0000d784       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(getpid.o)
+ .debug_frame   0x0000d7a4       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(isatty.o)
+ .debug_frame   0x0000d7c4       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(kill.o)
+ .debug_frame   0x0000d7e4       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(lseek.o)
+ .debug_frame   0x0000d804       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(read.o)
+ .debug_frame   0x0000d824       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(sbrk.o)
+ .debug_frame   0x0000d844       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(write.o)
+ .debug_frame   0x0000d864       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
 
 .stab           0x00000000       0xcc
  .stab          0x00000000       0x24 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(close.o)

@@ -1,0 +1,55 @@
+@startuml
+skinparam classFontSize 20
+skinparam ArrowFontSize 20
+skinparam packageFontSize 20
+package app {
+  package interface{
+    class GuiObserver
+  }
+  class Factory
+  class Gui
+  class OscilloscopeController
+
+  Factory *--> Gui:_gui
+  Factory *--> OscilloscopeController:_oscilloscopeController
+  Factory .> "sig-gen":includes
+  OscilloscopeController o--> Gui : _pGui
+  OscilloscopeController-|>GuiObserver
+  Gui o--> GuiObserver:_pGuiObserver
+  Gui .> "ugfx":includes
+  Factory.up>src.main:includes
+
+}
+
+package xf {
+  package config{}
+  package core{}
+  package doxygen{}
+  package include{
+  class Behaviour
+  OscilloscopeController-|>Behaviour
+  Gui-|>Behaviour
+  class xf
+  src.main.>xf:includes
+  }
+  package port{}
+}
+package src{
+  class main
+}
+
+package mdw{
+  package ugfx{
+
+  }
+  package trace{
+
+  }
+  package sig-gen{
+
+  }
+}
+package middlewares{
+ src.main.>cmsis_os:includes
+}
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+
+legend
+Temps [ms]
+end legend
+
+robust "uC" as cpu
+concise "ADC" as adc
+scale 10 as 100 pixels
+
+@0
+cpu is XF
+adc is Converts
+@1
+cpu is Display
+@21
+cpu is XF
+@22
+cpu is Display
+@42
+cpu is XF
+@43
+cpu is Display
+@enduml
