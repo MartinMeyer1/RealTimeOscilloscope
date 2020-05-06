@@ -11,6 +11,20 @@
 
 \geometry{hmargin=2.5cm,vmargin=2.5cm}
 
+\usepackage{listings}
+\usepackage[dvipsnames]{xcolor}
+\lstset{
+	language=C,
+	backgroundcolor=\color{black!5!white},
+	basicstyle=\normalsize,
+	commentstyle=\color{OliveGreen},
+	keywordstyle=\color{blue},
+	morekeywords={uint32_t},
+	frame=single,
+	numbers=left,
+	tabsize=3
+}
+
 \title{Rapport Realtime Oscilloscope}
 \author{Martin Meyer}
 \date{06 Mai 2020}
@@ -25,6 +39,101 @@
 	Dans ce laboratoire, nous avons créé un système temps réel réalisant un fonction d'oscilloscope. Une partie des tâches, comme l'échantillonnage, fonctionne en temps réel. D'autre tâches, comme l'affichage, n'en ont pas besoin.\\
 	Pour ce faire, nous avons travaillé avec les cartes microcontrôleur STM32f7-discovery, System Workbench for STM32 et STM32CubeMX.\newline
 	Ce rapport décrit quelques parties intéressantes du programme, notamment grâce à des diagrammes UML.
+	\section{Questions}
+	\subsection{Tâche 6}
+	\subsubsection{Question 1}
+	\textbf{Est-ce qu'il est possible d'exécuter le composant numéro 1 avec un XF ou bien faut-il un RTOS ? Justifiez votre réponse.}\\
+	Non, étant donné le timing de conversion du signal analogique qui est court, le processeur passerait trop de temps dans les switching context ou dans le xf. Il est préférable d'utiliser une timer hardware dans ce cas.
+	\subsubsection{Question 2}
+	\textbf{Est-ce qu'il est possible d'exécuter le composant numéro 2 avec un XF ou bien faut-il un RTOS ? Justifiez votre réponse.}\\
+	Oui, c'est possible, car le taux de rafraichissement est suffisament bas pour utiliser un XF ou un RTOS.
+	\subsubsection{Question 3}
+	\textbf{Si l'on combine un timer hardware avec un XF, lequel des deux doit être priorisé ? Justifiez votre réponse.}\\
+	Il faut prioriser le timer hardware, car il est plus important d'avoir un échantillonnage précis plutôt qu'un affichage précis. De plus, comme un rafraîchissement de l'écran dure plusieurs milliseconds, la conversion du signal analogique serait bloquée pendant ce temps.
+	
+	\subsection{Tâche 8}
+	\subsubsection{Question 1}
+	\textbf{Combien de mesures [Samples/s] le convertisseur A/D doit-il effectuer par seconde pour pouvoir échantillonner des signaux avec des fréquences jusqu'à 1 kHz ?}\\
+	Le théorème de Shannon nous dit que la fréquence d'échantillonnage doit être au moins 2 fois plus grande que la fréquence du signal à échantilloné. On devrait donc faire au moins 2kSamples/s. Cependant, pour avoir un signal lisible, il faudrait au moins avoir une fréquence de sampling de 20kSamples/s.
+	\subsubsection{Question 2}
+	\textbf{Faut-il un filtre ? Si oui, quelle sera la fréquence de coupure de ce filtre ?}\\
+	Oui, il faut ajouter un filtre passe-bas à l'entrée du signal à mesurer avec une fréquence de coupure à 1kHz, afin d'éviter que des signaux avec une fréquence plus élevée fausse les mesures, par un phénomène de sous-échantillonnage.
+	\subsubsection{Question 3}
+	\textbf{Est-ce que la fréquence donnée par le théorème d’échantillonnage ou devrait-elle être plus élévée ?}\\	
+	\subsubsection{Question 4}
+	\textbf{Lequel des canaux du ADC3 doit être utilisé pour pouvoir mesurer / échantillonner le signal à l'aide de la broche PA0 ?}\\
+	Le canal IN0.
+	\subsubsection{Question 5}
+	\textbf{Est-ce que le ADC pourrait-il éventuellement effectuer des mesures à des intervalles réguliers à l'aide de ses propres moyens ?}\\	
+	Oui il le pourrait, en mode continu. Mais on ne pourrait pas choisir l'intervalle de ces conversions, car l'ADC relancerait une nouvelle conversion automatiquement directement après qu'une conversion soit finie.
+	\subsection{Tâche 14}
+	\subsubsection{Question 1}
+	\textbf{Quelle fréquence d’échantillonnage peut être atteinte?}\\
+	La fréquence d'échantillonnage maximale atteinte est de 250kSamples/s.
+	\subsubsection{Question 2}
+	\textbf{Quel(s) composant(s) limite(nt) le système?}\\
+	Le temps d'interruption qui limite le système. Lorsque la fréquence d'échantillonnage est trop élevée, le processeur va être tout le temps dans l'interruption de fin de conversion ADC. Le clock et la mémoire limitent le système, car en les augmentant, on pourrait augmenter la fréquence de sampling.
+	
+	\subsection{Tâche 15}
+	\subsubsection{Question 1}
+	\textbf{À quelle fréquence maximale peut-on régler l’échantillonnage?}\\
+	On peut la régler à 250kSamples/s au maximum.
+	\subsubsection{Question 2}
+	\textbf{Quels avantages voyez-vous à utiliser FreeRTOS dans cette application?}\\
+	Avec des sytèmes qui fonctionnent à des grandes fréquences (plus de 1kHz), un RTOS devient intéressant car il permet d'utiliser des priorités entre différentes tâches. Dans notre cas, le timer serait par exemple priorisé.
+	\subsubsection{Question 3}
+	\textbf{Donnez un exemple où un RTOS serait particulièrement nécessaire?}\\
+	Par exemple un système d'arrêt d'urgence doit être priorisé sur toutes les autres tâches.
+	\section{Tâches facultatives}
+	\subsection{FA1 - Fonction trigger}
+	Le but de cette fonction est d'afficher le signal d'une façon à ce qu'il reste toujours au même endroit sur l'écran et d’éviter qu’il se déplace à travers de l'écran.\\
+	Le seuil du trigger a été fixé à 2048 arbitrairement. Cette valeure correspond à la moitié de la plage de valeur de l'ADC. La fonctionnalité trigger est implémentée dans la méthode doShowAnalogSignal() de la classe OscilloscopeController.\\
+	
+		\begin{figure}[H]
+		\begin{lstlisting}
+if(TriggerOn){
+	uint32_t temp_low=0;
+	uint32_t temp_high=0;
+	uint32_t nbMoy=5;
+	for(int i=nbMoy;i<_adcValuesBufferSize-size-nbMoy;i++){
+		for(int j=0;j<nbMoy;j++){//Points average loop
+			temp_low+=_adcValuesBuffer[i-j];
+			temp_high+=_adcValuesBuffer[i+j];
+		}
+		temp_low/=nbMoy;
+		temp_high/=nbMoy;
+	
+		//check the trigger value
+		if(temp_low<triggerValue&&temp_high>triggerValue){
+			//update the pointer
+			trigPtr = &_adcValuesBuffer[i];
+		}
+	}
+}
+else{
+	trigPtr = _adcValuesBuffer;
+}
+
+gui().drawGraphPoints(trigPtr, size,xScale);
+		\end{lstlisting}
+		\caption{Trigger Code}
+		\label{code_trig}
+	\end{figure}
+La figure \ref{code_trig} montre le code du trigger. On va rechercher l'index du tableaux de mesures auquel le niveau des mesures devient plus élevé que le seuil du trigger. Pour plus de précision, une moyenne de 5 points est effectuée. Une fois que le seuil est détecté, le pointer passé à la fonction drawGraphPoint est mis à jour.	
+	\subsection{FA2 - Axe du temps}
+	Pour calculer le paramètre xScale de la méthode drawPoints, l'équation suivante a été utilisée:
+	\begin{equation}
+	\frac{600}{tDiv\cdot\frac{8}{tSample}}
+	\end{equation}
+	Le 600 correspond au nombre de pixel en x à afficher, et le 8 est le nombre de division.
+	Elle a ensuite été transformée pour ne pas utiliser des float avec une valeur trop petite:
+	\begin{equation}
+		\frac{600}{fSample\cdot\frac{8}{fDiv}}
+	\end{equation}
+	Malgré ce calcul, l'échelle n'était pas correct. J'ai donc ajouté un facteur pour que tout fonctionne. L'équation finale:
+	\begin{equation}
+	\frac{600}{fSample\cdot\frac{8}{fDiv}}\cdot 1.7
+	\end{equation}
 	\section{Tests}
 	\subsection{A}
 		\begin{table}[H]
@@ -436,7 +545,7 @@
 	\end{center}
 \end{table}	
 \subsection{F}
-		\begin{table}[H]
+		\begin{table}[H]%%
 	\begin{center}
 		\begin{tabular}{| m{2cm}|m{2cm}|m{12cm}|}
 			\hline 

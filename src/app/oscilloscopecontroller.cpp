@@ -150,13 +150,14 @@ void OscilloscopeController::doShowAnalogSignal()
 	if(TriggerOn){
 		uint32_t temp_low=0;
 		uint32_t temp_high=0;
-		for(int i=1;i<_adcValuesBufferSize-size-3;i++){
-			for(int j=0;j<3;j++){
+		uint32_t nbMoy=5;
+		for(int i=nbMoy;i<_adcValuesBufferSize-size-nbMoy;i++){
+			for(int j=0;j<nbMoy;j++){
 				temp_low+=_adcValuesBuffer[i-j];
 				temp_high+=_adcValuesBuffer[i+j];
 			}
-			temp_low/=4;
-			temp_high/=4;
+			temp_low/=nbMoy;
+			temp_high/=nbMoy;
 
 			if(temp_low<triggerValue&&temp_high>triggerValue){
 				trigPtr = &_adcValuesBuffer[i];
