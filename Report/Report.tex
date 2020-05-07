@@ -9,11 +9,11 @@
 \usepackage{caption}
 \usepackage{array}
 \usepackage{lscape}
-
-\geometry{hmargin=2.5cm,vmargin=2.5cm}
-
 \usepackage{listings}
 \usepackage[dvipsnames]{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\geometry{hmargin=2.5cm,vmargin=2.5cm}
 \lstset{
 	language=C,
 	backgroundcolor=\color{black!5!white},
@@ -38,7 +38,7 @@
 
 	\section{Introduction}
 	Dans ce laboratoire, nous avons créé un système temps réel réalisant un fonction d'oscilloscope. Une partie des tâches, comme l'échantillonnage, fonctionne en temps réel. D'autre tâches, comme l'affichage, n'en ont pas besoin.\\
-	Pour ce faire, nous avons travaillé avec les cartes microcontrôleur STM32f7-discovery, System Workbench for STM32 et STM32CubeMX.\newline
+	Pour ce faire, nous avons travaillé avec les cartes microcontrôleur STM32f7-discovery, System Workbench for STM32 et STM32CubeMX.\\
 	Ce rapport décrit quelques parties intéressantes du programme, notamment grâce à des diagrammes UML.\newpage
 	\section{Diagrammes}
 	\subsection{Diagramme de timing}
@@ -53,7 +53,7 @@
 	\subsection{Diagramme de classe}
 	\begin{figure}[H]
 	\begin{center}
-		\includegraphics[angle=270,scale=0.48]{Ressources/class.pdf}
+		\includegraphics[angle=270,scale=0.45]{Ressources/class.pdf}
 		\caption{\label{class} Diagramme de classe}
 	\end{center}
 \end{figure}
@@ -63,7 +63,7 @@
 	\subsection{Sujet-observateur}
 	Un pattern sujet-observateur est utilisé. La classe OscilloscopeController est l'observateur et la classe Gui le sujet.
 	\subsection{Factory}
-	Une Factory est utilisée dans ce labo. Elle initialize des relations et lance le système.
+	Une Factory est utilisée dans ce labo. Elle initialise des relations et lance le système.
 	\section{Questions}
 	\subsection{Tâche 6}
 	\subsubsection{Question 1}
@@ -74,8 +74,7 @@
 	Oui, c'est possible, car le taux de rafraichissement est suffisament bas pour utiliser un XF ou un RTOS.
 	\subsubsection{Question 3}
 	\textbf{Si l'on combine un timer hardware avec un XF, lequel des deux doit être priorisé ? Justifiez votre réponse.}\\
-	Il faut prioriser le timer hardware, car il est plus important d'avoir un échantillonnage précis plutôt qu'un affichage précis. De plus, comme un rafraîchissement de l'écran dure plusieurs milliseconds, la conversion du signal analogique serait bloquée pendant ce temps.
-	
+	Il faut prioriser le timer hardware, car il est plus important d'avoir un échantillonnage précis plutôt qu'un affichage précis. De plus, comme un rafraîchissement de l'écran dure plusieurs milliseconds, la conversion du signal analogique serait bloquée pendant ce temps.	
 	\subsection{Tâche 8}
 	\subsubsection{Question 1}
 	\textbf{Combien de mesures [Samples/s] le convertisseur A/D doit-il effectuer par seconde pour pouvoir échantillonner des signaux avec des fréquences jusqu'à 1 kHz ?}\\
@@ -84,7 +83,8 @@
 	\textbf{Faut-il un filtre ? Si oui, quelle sera la fréquence de coupure de ce filtre ?}\\
 	Oui, il faut ajouter un filtre passe-bas à l'entrée du signal à mesurer avec une fréquence de coupure à 1kHz, afin d'éviter que des signaux avec une fréquence plus élevée fausse les mesures, par un phénomène de sous-échantillonnage.
 	\subsubsection{Question 3}
-	\textbf{Est-ce que la fréquence donnée par le théorème d’échantillonnage ou devrait-elle être plus élévée ?}\\	
+	\textbf{Est-ce que la fréquence donnée par le théorème d’échantillonnage ou devrait-elle être plus élévée ?}\\
+	La fréquence doit être plus élevée (par exemple 10kSamples/s) pour avoir un signal lisible. Si l'on utilise la fréquence donnée par le théorème d'échantillonnage, on aura seulement 2 points de mesure par période.
 	\subsubsection{Question 4}
 	\textbf{Lequel des canaux du ADC3 doit être utilisé pour pouvoir mesurer / échantillonner le signal à l'aide de la broche PA0 ?}\\
 	Le canal IN0.
@@ -112,7 +112,7 @@
 	\section{Tâches facultatives}
 	\subsection{FA1 - Fonction trigger}
 	Le but de cette fonction est d'afficher le signal d'une façon à ce qu'il reste toujours au même endroit sur l'écran et d’éviter qu’il se déplace à travers de l'écran.\\
-	Le seuil du trigger a été fixé à 2048 arbitrairement. Cette valeure correspond à la moitié de la plage de valeur de l'ADC. La fonctionnalité trigger est implémentée dans la méthode doShowAnalogSignal() de la classe OscilloscopeController.\\
+	Le seuil du trigger a été fixé à 2048 arbitrairement. Cette valeur correspond à la moitié de la plage de valeur de l'ADC. La fonctionnalité trigger est implémentée dans la méthode doShowAnalogSignal() de la classe OscilloscopeController.\\
 	
 		\begin{figure}[H]
 		\begin{lstlisting}
@@ -144,7 +144,7 @@ gui().drawGraphPoints(trigPtr, size,xScale);
 		\caption{Trigger Code}
 		\label{code_trig}
 	\end{figure}
-La figure \ref{code_trig} montre le code du trigger. On va rechercher l'index du tableaux de mesures auquel le niveau des mesures devient plus élevé que le seuil du trigger. Pour plus de précision, une moyenne de 5 points est effectuée. Une fois que le seuil est détecté, le pointer passé à la fonction drawGraphPoint est mis à jour.	
+La figure \ref{code_trig} montre le code du trigger. On va rechercher l'index du tableau de mesures auquel le niveau des mesures devient plus élevé que le seuil du trigger. Pour plus de précision, une moyenne de 5 points est effectuée. Une fois que le seuil est détecté, le pointer passé à la fonction drawGraphPoint est mis à jour.	
 	\subsection{FA2 - Axe du temps}
 	Pour calculer le paramètre xScale de la méthode drawPoints, l'équation suivante a été utilisée:
 	\begin{equation}
@@ -915,5 +915,5 @@ La figure \ref{code_trig} montre le code du trigger. On va rechercher l'index du
 	\end{table}	
 
 	\section{Conclusion}
-
+	Le but de ce projet était de réaliser un oscilloscope en temps réel. On peut dire que l'objectif est atteint car la majorité des tests ont été passés. Ce labo m'a permis de mieux comprendre les notions de temps réel abordées en cours, et de mieux maîtriser des outils tel que cubeMX ou encore System Workbench for STM32.
 \end{document}

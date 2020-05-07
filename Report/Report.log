@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.14)  6 MAY 2020 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.14)  7 MAY 2020 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,6 +212,117 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 (c:/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen135
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count114
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count115
+
+(c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen136
+\Fld@menulength=\count116
+\Field@Width=\dimen137
+\Fld@charsize=\dimen138
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count117
+\c@Item=\count118
+\c@Hfootnote=\count119
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip45
+)
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
@@ -231,6 +342,8 @@ LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Info: Redefining \degres on input line 33.
 LaTeX Info: Redefining \dots on input line 33.
@@ -272,57 +385,22 @@ LaTeX Info: Redefining \up on input line 33.
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen135
+\scratchcounter=\count122
+\scratchdimen=\dimen139
 \scratchbox=\box33
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\nofMPsegments=\count123
+\nofMParguments=\count124
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen136
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen140
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks24
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -336,15 +414,34 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count118
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 35.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 35.
+\c@lstlisting=\count128
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 33.
 
-(./Report.toc
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count129
+)
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
+
+(./Report.out) (./Report.out)
+\@outlinefile=\write3
+\openout3 = `Report.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 36.
+ (./Report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -354,30 +451,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-\tf@toc=\write3
-\openout3 = `Report.toc'.
+\tf@toc=\write4
+\openout4 = `Report.toc'.
 
  [2]
-<Ressources/timing.pdf, id=14, 437.38406pt x 131.74219pt>
+<Ressources/timing.pdf, id=220, 437.38406pt x 131.74219pt>
 File: Ressources/timing.pdf Graphic file (type pdf)
 <use Ressources/timing.pdf>
 Package pdftex.def Info: Ressources/timing.pdf  used on input line 48.
 (pdftex.def)             Requested size: 472.03123pt x 142.17891pt.
-<Ressources/class.pdf, id=15, 1222.5675pt x 587.94656pt>
+<Ressources/class.pdf, id=222, 1222.5675pt x 587.94656pt>
 File: Ressources/class.pdf Graphic file (type pdf)
 <use Ressources/class.pdf>
 Package pdftex.def Info: Ressources/class.pdf  used on input line 56.
 (pdftex.def)             Requested size: 1222.56451pt x 587.94513pt.
- [3 <./Ressources/timing.pdf>]
-Overfull \vbox (5.1669pt too high) has occurred while \output is active []
-
-
-[4 <./Ressources/class.pdf>] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-[6]
+ [3 <./Ressources/timing.pdf>] [4 <./Ressources/class.pdf>] [5] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
@@ -432,7 +520,7 @@ Overfull \hbox (20.8128pt too wide) in paragraph at lines 383--402
  [] 
  []
 
-<Ressources/PWM_500us.jpg, id=165, 4194.67125pt x 2518.40875pt>
+<Ressources/PWM_500us.jpg, id=419, 4194.67125pt x 2518.40875pt>
 File: Ressources/PWM_500us.jpg Graphic file (type jpg)
 <use Ressources/PWM_500us.jpg>
 Package pdftex.def Info: Ressources/PWM_500us.jpg  used on input line 418.
@@ -442,7 +530,7 @@ Overfull \hbox (20.8128pt too wide) in paragraph at lines 407--427
  [] 
  []
 
-<Ressources/PWM_10ms.jpg, id=166, 4244.85875pt x 2499.3375pt>
+<Ressources/PWM_10ms.jpg, id=420, 4244.85875pt x 2499.3375pt>
 File: Ressources/PWM_10ms.jpg Graphic file (type jpg)
 <use Ressources/PWM_10ms.jpg>
 Package pdftex.def Info: Ressources/PWM_10ms.jpg  used on input line 442.
@@ -453,7 +541,7 @@ Overfull \hbox (20.8128pt too wide) in paragraph at lines 431--451
  []
 
 [11]
-<Ressources/sinus_500us.jpg, id=170, 4218.76125pt x 2517.405pt>
+<Ressources/sinus_500us.jpg, id=429, 4218.76125pt x 2517.405pt>
 File: Ressources/sinus_500us.jpg Graphic file (type jpg)
 <use Ressources/sinus_500us.jpg>
 Package pdftex.def Info: Ressources/sinus_500us.jpg  used on input line 466.
@@ -464,7 +552,7 @@ Overfull \hbox (20.8128pt too wide) in paragraph at lines 455--475
  []
 
 [12 <./Ressources/PWM_500us.jpg>]
-<Ressources/sinus_10ms.jpg, id=174, 4171.585pt x 2347.77126pt>
+<Ressources/sinus_10ms.jpg, id=436, 4171.585pt x 2347.77126pt>
 File: Ressources/sinus_10ms.jpg Graphic file (type jpg)
 <use Ressources/sinus_10ms.jpg>
 Package pdftex.def Info: Ressources/sinus_10ms.jpg  used on input line 490.
@@ -559,31 +647,41 @@ Overfull \hbox (20.8128pt too wide) in paragraph at lines 877--896
  [] 
  []
 
-[19] [20] (./Report.aux) ) 
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 919.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 919.
+ (./Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 919.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 919.
+Package rerunfilecheck Info: File `Report.out' has not changed.
+(rerunfilecheck)             Checksum: 8AD37A55C79DB61B015C1A5B37A9B103;2397.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 919.
+ ) 
 Here is how much of TeX's memory you used:
- 6962 strings out of 494492
- 99568 string characters out of 6175390
- 377366 words of memory out of 5000000
- 10546 multiletter control sequences out of 15000+600000
+ 10522 strings out of 494492
+ 153758 string characters out of 6175390
+ 463523 words of memory out of 5000000
+ 13964 multiletter control sequences out of 15000+600000
  13364 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,15n,49p,370b,1254s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/
-cm-super-t1.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-sup
-er/sfbx1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc120
-0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on Report.pdf (20 pages, 13935193 bytes).
+ 36i,15n,49p,378b,1263s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/s
+fbx1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/cm-super/sfrm2074.pfb>
+Output written on Report.pdf (20 pages, 13942762 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 464 compressed objects within 5 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
